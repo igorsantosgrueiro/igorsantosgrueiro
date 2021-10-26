@@ -1,0 +1,10 @@
+@article{nieves2011REVMET,
+    
+    author = {Javier Nieves and Igor Santos and Pablo Garc\'ia Bringas},
+    title = {Model Predictive Control on High Precision Foundries, a New Approach for the Prediction Phase},
+    journal = {Revista Metalurgia},
+    volume = {47},
+    number = {4},
+    pages = {197--204},
+    year = {2011},
+}

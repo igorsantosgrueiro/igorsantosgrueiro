@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Santos11b,
+
+    author = {Igor Santos and Borja Sanz and Carlos Laorden and Felix Brezo and Pablo G. Bringas},
+
+    title = {Opcode-sequence-based Semi-supervised Unknown Malware Detection.},
+    
+    booktitle = {Proceedings of the 4$^{th}$ International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+
+    year = {2011},
+    pages= {50--57},
+
+}

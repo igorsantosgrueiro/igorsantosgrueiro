@@ -1,0 +1,15 @@
+@incollection{
+year={2013},
+isbn={978-3-642-38630-5},
+booktitle={Network and System Security},
+volume={7873},
+series={Lecture Notes in Computer Science},
+editor={Lopez, Javier and Huang, Xinyi and Sandhu, Ravi},
+doi={10.1007/978-3-642-38631-2_60},
+title={Filtering Trolling Comments through Collective Classification},
+url={http://dx.doi.org/10.1007/978-3-642-38631-2_60},
+publisher={Springer Berlin Heidelberg},
+keywords={information filtering; spam detection; web categorisation; content filtering; machine-learning},
+author={de-la-Pe\~na-Sordo, Jorge and Santos, Igor and Pastor-L\'opez, Iker and Bringas, P.G.},
+pages={707-713}
+}

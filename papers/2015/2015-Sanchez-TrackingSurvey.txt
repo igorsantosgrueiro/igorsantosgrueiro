@@ -1,0 +1,8 @@
+@incollection{sanchez2015tracking,
+  title={Tracking Users Like There is No Tomorrow: Privacy on the Current Internet},
+  author={S{\'a}nchez-Rola, Iskander and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo G},
+  booktitle={International Joint Conference CISIS-SOCO-ICEUTE},
+  pages={473--483},
+  year={2015},
+  publisher={Springer International Publishing}
+}

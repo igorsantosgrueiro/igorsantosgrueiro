@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Santos09,
+
+    author = {Igor Santos and Javier Nieves and Yoseba K. Penya and Pablo G. Bringas},
+
+    title = {Machine-learning-based Mechanical Properties Prediction in Foundry Production},
+
+    booktitle = {In Proceedings of ICROS-SICE International Joint Conference (ICCAS-SICE)},
+
+    year = {2009},
+   
+    pages={4536--4541}
+}

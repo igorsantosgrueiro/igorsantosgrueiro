@@ -1,0 +1,11 @@
+@INPROCEEDINGS{ugarte2011inscrypt,
+
+    author = {X. Ugarte-Pedrero and I. Santos and P.G. Bringas},
+
+    title = {Semi-supervised Learning for Packed Executable Detection},
+    
+    booktitle = {In Proceedings of the 7th International Conference on Information Security and Cryptology (INSCRYPT)},
+
+    note = {in press},
+    year = {2011}
+}

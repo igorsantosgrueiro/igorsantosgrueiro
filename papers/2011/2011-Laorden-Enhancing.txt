@@ -1,0 +1,11 @@
+@INPROCEEDINGS{Laorden2011enhancing,
+
+    author = {Carlos Laorden and Xabier Ugarte-Pedrero and Igor Santos and Borja Sanz and Pablo G. Bringas},
+
+    title = {Enhancing Scalability in Anomaly-based Email Spam Filtering},
+    
+    booktitle = {Proceedings of the 8$^{th}$ Annual Collaboration, Electronic messaging, Anti-Abuse and Spam Conference (CEAS)},
+
+    pages = {13--22},
+    year = {2011}
+}

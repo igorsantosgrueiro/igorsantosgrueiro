@@ -1,0 +1,12 @@
+@article{Laorden01082013,
+author = {Laorden, Carlos and Sanz, Borja and Santos, Igor and Galán-García, Patxi and Bringas, Pablo G.}, 
+title = {Collective classification for spam filtering},
+volume = {21}, 
+number = {4}, 
+pages = {540-548}, 
+year = {2013}, 
+doi = {10.1093/jigpal/jzs030}, 
+URL = {http://jigpal.oxfordjournals.org/content/21/4/540.abstract}, 
+eprint = {http://jigpal.oxfordjournals.org/content/21/4/540.full.pdf+html}, 
+journal = {Logic Journal of IGPL} 
+}

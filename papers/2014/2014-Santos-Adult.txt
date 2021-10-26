@@ -1,0 +1,8 @@
+@incollection{santos2014empirical,
+  title={An Empirical Study on Word Sense Disambiguation for Adult Content Filtering},
+  author={Santos, Igor and Gal{\'a}n-Garc{\'\i}a, Patxi and G{\'o}mez, Carlos Laorden and Nieves, Javier and Sanz, Borja and Bringas, Pablo Garc{\'\i}a and G{\'o}mez, Jose Maria},
+  booktitle={International Joint Conference SOCO’14-CISIS’14-ICEUTE’14},
+  pages={537--544},
+  year={2014},
+  publisher={Springer International Publishing}
+}

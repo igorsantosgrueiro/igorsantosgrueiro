@@ -1,0 +1,28 @@
+﻿
+
+
+
+
+@article{doi:10.1080/01969722.2013.803889,
+
+	author = {Sanz, Borja and Santos, Igor and Laorden, Carlos and Ugarte-Pedrero, Xabier and Nieves, Javier and Bringas, Pablo G. and Álvarez Marañón, Gonzalo},
+	
+title = {MAMA: MANIFEST ANALYSIS FOR MALWARE DETECTION IN ANDROID},
+
+	journal = {Cybernetics and Systems},
+
+	volume = {44},
+
+	number = {6-7},
+
+	pages = {469-488},
+	
+year = {2013},
+
+	doi = {10.1080/01969722.2013.803889},
+
+URL = {http://www.tandfonline.com/doi/abs/10.1080/01969722.2013.803889},
+
+}
+
+

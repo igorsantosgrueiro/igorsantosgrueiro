@@ -1,0 +1,13 @@
+@incollection {lopez2010automatic,
+   author = {López-de-Uralde, Juan and Ruiz, Iraide and Santos, Igor and Zubillaga, Agustín and Bringas, Pablo and Okariz, Ana and Guraya, Teresa},
+   title = {Automatic Morphological Categorisation of Carbon Black Nano-aggregates},
+   booktitle = {Database and Expert Systems Applications},
+   series = {Lecture Notes in Computer Science},
+   editor = {Bringas, Pablo and Hameurlain, Abdelkader and Quirchmayr, Gerald},
+   publisher = {Springer Berlin / Heidelberg},
+   pages = {185--193},
+   volume = {6262},
+   url = {http://dx.doi.org/10.1007/978-3-642-15251-1\_15},
+   note = {10.1007/978-3-642-15251-1\_15},
+   year = {2010}
+}

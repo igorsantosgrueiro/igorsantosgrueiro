@@ -1,0 +1,9 @@
+@article{laorden2012word,
+    author = {Carlos Laorden and Igor Santos and Borja Sanz and Gonzalo Alvarez and Pablo Garc\'ia Bringas},
+    title = {Word Sense Disambiguation for Spam Filtering},
+    journal = {Electronic Commerce Research and Applications},
+    volume = {??},
+    number = {??},
+    year = {2012},
+    note = {doi:10.1016/j.elerap.2011.11.004}
+}

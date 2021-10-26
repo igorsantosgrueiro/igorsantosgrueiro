@@ -1,0 +1,18 @@
+@INPROCEEDINGS{brezo12,
+
+    author = {I. Santos and P. Galán-García and  A. Santamaría-Ibirika and  B. Alonso-Isla and  I. Alabau-Sarasola and  P.G. Bringas},
+
+    title = {Adult Content Filtering through Compression-based Text Classification},
+
+   booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+
+   volume = {189},
+
+   pages={281-288},
+
+    year = {2012},
+
+   isbn ={978-3-642-33017-9},
+
+   doi = {978-3-642-33017-9, DOI: 10.1007/978-3-642-33018-6_29}
+}

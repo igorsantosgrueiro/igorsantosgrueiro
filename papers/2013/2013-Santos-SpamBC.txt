@@ -1,0 +1,15 @@
+@incollection{santos_2013_SpamAnopmaly
+year={2012},
+isbn={978-3-642-35754-1},
+booktitle={E-Business and Telecommunications},
+volume={314},
+series={Communications in Computer and Information Science},
+editor={Obaidat, MohammadS. and Sevillano, JoséL. and Filipe, Joaquim},
+doi={10.1007/978-3-642-35755-8_15},
+title={Spam Filtering through Anomaly Detection},
+url={http://dx.doi.org/10.1007/978-3-642-35755-8_15},
+publisher={Springer Berlin Heidelberg},
+keywords={Computer security; Spam filtering; Anomaly detection; Text classification},
+author={Santos, Igor and Laorden, Carlos and Ugarte-Pedrero, Xabier and Sanz, Borja and Bringas, PabloG.},
+pages={203-216}
+}

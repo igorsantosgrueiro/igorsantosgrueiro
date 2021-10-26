@@ -1,0 +1,11 @@
+@INPROCEEDINGS{santos2011Coll,
+
+    author = {Igor Santos and Xabier Ugarte-Pedrero and Borja Sanz and Carlos Laorden and Pablo G. Bringas},
+
+    title = {Collective Classification for Packed Executable Identification},
+    
+    booktitle = {Proceedings of the 8$^{th}$ Annual Collaboration, Electronic messaging, Anti-Abuse and Spam Conference (CEAS)},
+
+    pages = {23--30},
+    year = {2011}
+}

@@ -1,0 +1,11 @@
+@incollection {Santos10a,
+   author = {Santos, Igor and Brezo, Felix and Nieves, Javier and Penya, Yoseba and Sanz, Borja and Laorden, Carlos and Bringas, Pablo},
+   title = {Idea: Opcode-Sequence-Based Malware Detection},
+   booktitle = {Engineering Secure Software and Systems},
+   series = {LNCS},
+   pages = {35--43},
+   volume = {5965},
+   url = {http://dx.doi.org/10.1007/978-3-642-11747-3\_3},
+   note = {10.1007/978-3-642-11747-3\_3},
+   year = {2010}
+}

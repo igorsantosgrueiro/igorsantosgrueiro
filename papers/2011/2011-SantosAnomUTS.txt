@@ -1,0 +1,11 @@
+@incollection {santos2011anomaly,
+   author = {Igor Santos and Javier Nieves and Xabier Ugarte-Pedrero and Pablo G. Bringas},
+   title = {Anomaly Detection for the Prediction of Ultimate Tensile Strength in High-Precision Foundries},
+   booktitle = {Database and Expert Systems Applications. Part II},
+   series = {Lecture Notes in Computer Science},
+   editor = {A. Hameurlain et al.},
+   publisher = {Springer Berlin / Heidelberg},
+   pages = {519--526},
+   volume = {6861},
+   year = {2011}
+}

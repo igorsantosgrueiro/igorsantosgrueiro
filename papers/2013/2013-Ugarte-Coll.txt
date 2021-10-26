@@ -1,0 +1,9 @@
+@journal{ugarte2013CollPacked,
+    
+    author = {X. Ugarte-Pedrero and I. Santos and C. Laorden and B. Sanz and P.G. Bringas},
+    title = {Collective Classification for Packed Executable Identification},
+    journal ={International Journal of Computer Systems Science & Engineering},
+    volume={?},
+    issue={?},
+    year ={2013}
+}

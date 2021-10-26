@@ -1,0 +1,8 @@
+@inproceedings{gaviria2015evolution,
+  title={The Evolution of Permission as Feature for Android Malware Detection},
+  author={Gaviria de la Puerta, Jos{\'e} and Sanz, Borja and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  booktitle={International Joint Conference CISIS-SOCO-ICEUTE},
+  pages={389--400},
+  year={2015},
+  organization={Springer}
+}

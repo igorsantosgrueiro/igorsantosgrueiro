@@ -1,0 +1,10 @@
+@inproceedings{sanchez-rola18clock,
+  title = {{Clock Around the Clock: Time-Based Device Fingerprinting}},
+  author = {Iskander Sanchez-Rola, Igor Santos, Davide Balzarotti},
+  booktitle = {Proceedings of the 25th ACM Conference on Computer and Communications Security},
+  month = {October},
+  year = {2018},
+  arate = {134/809},
+  keywords = {fingerprinting, web privacy},
+  affiliations = {University of Deusto, Eurecom},
+}

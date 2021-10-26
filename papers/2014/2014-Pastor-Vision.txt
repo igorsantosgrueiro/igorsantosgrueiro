@@ -1,0 +1,8 @@
+@article{pastor2014vision,
+  title={Visi{\'o}n artificial basada en aprendizaje autom{\'a}tico para la categorizaci{\'o}n de defectos superficiales en fundici{\'o}n.},
+  author={Pastor-L{\'o}pez, Iker and de-la-Pe{\~n}a-Sordo, Jorge and Rojas, Sendoa and Santos, Igor and Bringas, Pablo G},
+  journal={DYNA-Ingenier{\'\i}a e Industria},
+  volume={89},
+  number={3},
+  year={2014}
+}

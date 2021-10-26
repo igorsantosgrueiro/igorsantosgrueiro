@@ -1,0 +1,9 @@
+@inproceedings{sanchezRola19bakingTimer,
+ title = {{BakingTimer: Privacy Analysis of Server-Side Request Processing Time}},
+ author = {Sanchez-Rola, Iskander and Balzarotti, Davide and Santos, Igor},
+ booktitle = {Annual Computer Security Applications Conference (ACSAC)},
+ year = {2019},
+ arate = {60/266},
+ keywords = {user privacy, browser cookies, history sniffing},
+ affiliations = {University of Deusto, Symantec Research Labs, Eurecom}
+}

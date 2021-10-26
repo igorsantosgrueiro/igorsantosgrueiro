@@ -1,0 +1,19 @@
+@INPROCEEDINGS{Laorden2012Negobot,
+
+    author = {C. Laorden and P. Galán-García and I. Santos and B. Sanz and J.M. Gomez-Hidalgo and P.G. Bringas},
+
+    title = {Negobot: A conversational agent based on game theory for the detection of paedophile behaviour},
+    
+    booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+
+   volume = {189},
+
+   pages={261--270},
+
+    year = {2012},
+
+   isbn ={978-3-642-33017-9},
+
+   doi = {10.1007/978-3-642-33018-6_27}
+
+}

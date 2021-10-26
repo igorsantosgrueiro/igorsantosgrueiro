@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Sanz2012androidappclass,
+
+    author = {B. Sanz and I. Santos and C. Laorden and X. Ugarte-Pedrero and P.G. Bringas},
+
+    title = {On the Automatic Categorisation of Android Applications},
+    
+    booktitle = {Proceedings of the 9$^{th}$ IEEE Consumer Communications and Networking Conference (CCNC2012)},
+
+    year = {2012},
+	
+    note = {in press},
+}

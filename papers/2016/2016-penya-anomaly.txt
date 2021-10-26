@@ -1,0 +1,10 @@
+@article{penya2016anomaly,
+  title={Anomaly-based user comments detection in social news websites using troll user comments as normality representation},
+  author={de-la-Pe{\~n}a-Sordo, Jorge and Pastor-L{\'o}pez, Iker and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo G},
+  journal={Logic Journal of IGPL},
+  volume={24},
+  number={6}
+  pages={883--898},
+  year={2016},
+  publisher={Oxford University Press}
+}

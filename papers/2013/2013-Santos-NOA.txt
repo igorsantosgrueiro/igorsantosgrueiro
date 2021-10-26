@@ -1,0 +1,9 @@
+@journal{santos2013NOA,
+    
+    author = {I. Santos and X. Ugarte-Pedrero and F. Brezo and P.G. Bringas and J.M. Gómez-Hidalgo},
+    title = {NOA: An Information Retrieval Based Malware Detection System},
+    journal ={Proceedings of the 9th IEEE Consumer Communications and Networking Conference (CCNC)},
+    volume={?},
+    issue={?},
+    year ={2013}
+}

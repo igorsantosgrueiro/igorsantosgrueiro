@@ -1,0 +1,8 @@
+@inproceedings{nieves2014enhancing,
+  title={Enhancing the stationary state prediction in Model Predictive Control systems to avoid Dross defect in heavy-section foundries},
+  author={Nieves, Javier and Santos, Igor and Bringas, Pablo G and Zabala, Argoitz and Sertucha, Jon},
+  booktitle={Industrial Electronics and Applications (ICIEA), 2014 IEEE 9th Conference on},
+  pages={424--429},
+  year={2014},
+  organization={IEEE}
+}

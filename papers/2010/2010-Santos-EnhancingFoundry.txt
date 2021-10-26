@@ -1,0 +1,9 @@
+@conference{santos2010enhancing,
+  title={{Enhancing fault prediction on automatic foundry processes}},
+  author={Santos, I. and Nieves, J. and Bringas, P.G.},
+  booktitle={World Automation Congress (WAC), 2010},
+  pages={1--6},
+  issn={2154-4824},
+  year={2010},
+  organization={IEEE}
+}

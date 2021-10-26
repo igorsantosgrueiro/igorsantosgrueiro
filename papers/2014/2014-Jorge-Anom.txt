@@ -1,0 +1,8 @@
+@incollection{de2014anomalous,
+  title={Anomalous User Comment Detection in Social News Websites},
+  author={de-la-Pe{\~n}a-Sordo, Jorge and Pastor-L{\'o}pez, Iker and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  booktitle={International Joint Conference SOCO’14-CISIS’14-ICEUTE’14},
+  pages={517--526},
+  year={2014},
+  publisher={Springer International Publishing}
+}

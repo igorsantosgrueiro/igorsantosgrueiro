@@ -1,0 +1,8 @@
+@inproceedings{2021-llorente-neverending,
+    author={Oscar Llorente-Vazquez and Igor Santos and Iker Pastor and Pablo
+    G. Bringas},
+    title = {{The Neverending Story: Memory Corruption 30 Years Later}},
+    booktitle={Proceedings of the International Conference on Computational
+    Intelligence in Security for Information Systems (CISIS)},
+    year={2021},
+}

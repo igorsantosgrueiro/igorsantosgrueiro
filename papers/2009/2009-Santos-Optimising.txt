@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Santos09b,
+
+    author = {Igor Santos and Javier Nieves and Yoseba K. Penya and Pablo G. Bringas},
+
+    title = {Optimising Machine-learning-based Fault Prediction in Foundry Production.},
+    
+    booktitle = {Proceedings of the 2$^{nd}$ International Symposium on Distributed Computing and Artificial Intelligence (DCAI),. S. Omatu et al. (Eds.): IWANN 2009, Part II, LNCS 5518, Springer-Verlag Berlin Heidelberg},
+
+    year = {2009},
+
+    pages = {553--560}
+}

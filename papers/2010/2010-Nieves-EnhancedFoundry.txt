@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Nieves10,
+
+    author = {Javier Nieves and Igor Santos and Yoseba K. Penya and Felix Brezo and Pablo G. Bringas},
+
+    title = {Enhanced Foundry Production Control},
+
+    booktitle = {Proceedings of the 21st International Conference on Database and Expert Systems Applications (DEXA)},
+
+    year = {2010},
+   
+    pages={213--220}
+}

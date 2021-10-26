@@ -1,0 +1,11 @@
+@INPROCEEDINGS{ugarte2011semipacked,
+
+    author = {X. Ugarte-Pedrero and I. Santos and P.G. Bringas and M. Gastesi and J.M. Esparza},
+
+    title = {Semi-supervised Learning for Packed Executable Detection},
+    
+    booktitle = {In Proceedings of the 5th International Conference on Network and System Security (NSS)},
+
+    pages = {342--346},
+    year = {2011}
+}

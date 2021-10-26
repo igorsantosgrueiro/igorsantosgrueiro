@@ -1,0 +1,10 @@
+@INPROCEEDINGS{santos2013CCNC,
+    
+author={Santos, I. and Laorden, C. and Sanz, B. and Bringas, P.G.}, 
+booktitle={Consumer Communications and Networking Conference (CCNC), 2013 IEEE}, 
+title={JURD: Joiner of Un-Readable Documents to reverse tokenization attacks to content-based spam filters}, 
+year={2013}, 
+pages={259-264}, 
+keywords={Bayes methods;information filters;learning (artificial intelligence);pattern classification;security of data;unsolicited e-mail;Bayesian classifier;JURD;computer security;computer viruses;content-based spam filters;e-mail signatures;machine-learning algorithms;phishing;reverse tokenization attacks;spam words;statistical representations;worms}, 
+doi={10.1109/CCNC.2013.6488455},
+}

@@ -1,0 +1,8 @@
+@inproceedings{santamaria2014procedural,
+  title={Procedural Playable Cave Systems Based on Voronoi Diagram and Delaunay Triangulation},
+  author={Santamaria-Ibirika, Aitor and Cantero, Xabier and Huerta, Sergio and Santos, Igor and Bringas, Pablo G},
+  booktitle={2014 International Conference on Cyberworlds (CW)},
+  pages={15--22},
+  year={2014},
+  organization={IEEE}
+}

@@ -1,0 +1,7 @@
+@conference{lopez2010automatic,
+title={{Automated Image Analysis and Artificial Intelligence applied to microscopic iamges: a new methodology for the morphological characterization of nano-particles}},
+author={L\'opez-de-Uralde, J. and Guraya, T and Okariz, and Gómez E. and Zubillaga, A. and Santos, I.},
+booktitle={Proceedings of Modelling of Elastomeric Materials and Products},
+year={2010},
+}
+ 

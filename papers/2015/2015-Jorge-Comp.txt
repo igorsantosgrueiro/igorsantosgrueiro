@@ -1,0 +1,6 @@
+@inproceedings{jorge2015comp,
+  title={Using Compression Models for Filtering Troll Comments},
+  author={J. de-la-Pe\~{n}a-Sordo, I. Santos, P.G. Bringas},
+  booktitle={Proceedings of the 10th IEEE Conference on Industrial Electronics and Applications (ICIEA)},
+  year={2015}
+}

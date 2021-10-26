@@ -1,0 +1,6 @@
+@inproceedings{pastor2015BCLP,
+  title={Surface Defect Categorization of Imperfections in High Precision Automotive Iron Foundries using Best Crossing Line Profile},
+  author={Pastor-Lopez, Iker and Santos, Igor and Bringas, Pablo G},
+  booktitle={Proceedings of the 10th IEEE Conference on Industrial Electronics and Applications (ICIEA)},
+  year={2015}
+}

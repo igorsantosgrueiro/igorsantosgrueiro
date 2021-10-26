@@ -1,0 +1,10 @@
+@article{sanchez2016web,
+  title={The web is watching you: A comprehensive review of web-tracking techniques and countermeasures},
+  author={Sanchez-Rola, Iskander and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo G},
+  journal={Logic Journal of IGPL},
+  volume={25},
+  number={1},
+  pages={18--29},
+  year={2016},
+  publisher={Oxford University Press}
+}

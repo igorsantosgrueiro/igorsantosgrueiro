@@ -1,0 +1,6 @@
+@inproceedings{silva2014normalizaccao,
+  title={Normaliza{\c{c}}{\~a}o Textual e Indexa{\c{c}}{\~a}o Sem{\^a}ntica Aplicadas na Filtragem de SMS Spam},
+  author={Silva, Tiago P and Santos, Igor and Almeida, Tiago A and Hidalgo, Jose M Gomez},
+  booktitle={Anais do XI Encontro Nacional de Intelig{\^e}ncia Artificial e Computacional (ENIAC'14), S{\~a}o Carlos, Brazil},
+  year={2014}
+}

@@ -1,0 +1,9 @@
+@inproceedings{sanchezRola20dirtyclicks,
+ title = {{Dirty Clicks: a Study of the Usability and Security Implications of Click-related Behaviors on the Web}},
+ author = {Sanchez-Rola, Iskander and Balzarotti, Davide and Kruegel, Christopher and Vigna, Giovanni and Santos, Igor},
+ booktitle = {World Wide Web Conference (WWW)},
+ year = {2020},
+ arate = {217/1129},
+ keywords = {clicks, browser security, usability},
+ affiliations = {University of Deusto, NortonLifeLock Research Group, Eurecom, UC Santa Barbara}
+} 

@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Santos11a,
+
+    author = {Igor Santos and Javier Nieves and Pablo G. Bringas},
+
+    title = {Semi-supervised Learning for Unknown Malware Detection.},
+    
+    booktitle = {Proceedings of the 4$^{th}$ International Symposium on Distributed Computing and Artificial Intelligence (DCAI). 9th International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS)},
+
+    year = {2011},
+    pages= {415--422},
+
+}

@@ -1,0 +1,7 @@
+@conference{pastor013ICIEA,
+    
+    author = {Iker Pastor-L\'opez and Igor Santos and Jorge de-la-Pe\~na-Sordo and Mikel Salazar and Aitor Santamar\'ia-Ibirika and P.G. Bringas},
+    title = {Collective Classification for the Detection of Surface Defects in High Precision Foundry},
+    booktitle= {Proceedings of 8th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+    year={2013},
+}

@@ -1,0 +1,11 @@
+@article{Santos201364,
+title = "Opcode sequences as representation of executables for data-mining-based unknown malware detection",
+journal = "Information Sciences",
+volume = "231",
+pages = "64 - 82",
+year = "2013",
+issn = "0020-0255",
+doi = "10.1016/j.ins.2011.08.020",
+url = "http://www.sciencedirect.com/science/article/pii/S0020025511004336",
+author = "Igor Santos and Felix Brezo and Xabier Ugarte-Pedrero and Pablo G. Bringas",
+}

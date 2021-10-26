@@ -1,0 +1,10 @@
+@INPROCEEDINGS{sanchez-rola2017-extension-usenix-sec,
+  title = {{Extension Breakdown: Security Analysis of Browsers Extension Resources Control Policies}},
+  author = {Iskander Sanchez-Rola and Igor Santos and Davide Balzarotti},
+  booktitle = {Proceedings of the 26th USENIX Security Symposium (Sec)},
+  month = {August},
+  year = {2016},
+  arate = {85/522},
+  keywords = {browser security, extensions, attack},
+  affiliations = {University of Deusto, Eurecom},
+}

@@ -1,0 +1,15 @@
+@incollection{
+year={2014},
+isbn={978-3-319-01853-9},
+booktitle={International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+volume={239},
+series={Advances in Intelligent Systems and Computing},
+editor={Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio},
+doi={10.1007/978-3-319-01854-6_43},
+title={Supervised Machine Learning for the Detection of Troll Profiles in Twitter Social Network: Application to a Real Case of Cyberbullying},
+url={http://dx.doi.org/10.1007/978-3-319-01854-6_43},
+publisher={Springer International Publishing},
+keywords={On-line Social Networks; Trolling; Information Retrieval; Identity Theft; Cyberbullying},
+author={Galán-García, Patxi and Puerta, JoséGaviria and Gómez, CarlosLaorden and Santos, Igor and Bringas, PabloGarcía},
+pages={419-428}
+}

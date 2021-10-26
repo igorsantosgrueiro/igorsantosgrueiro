@@ -1,0 +1,6 @@
+@inproceedings{2016idiezfranco_data_flowing,
+  title={{Data is Flowing in the Wind: A Review of Data-Flow Integrity Methods to Overcome Non-Control-Data Attacks}},
+  author={D{\'i}ez-Franco, Irene and Santos, Igor},
+  booktitle={Proceedings of the International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  year=2016,
+}

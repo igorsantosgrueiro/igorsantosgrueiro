@@ -1,0 +1,10 @@
+@INPROCEEDINGS{Laorden2012Study,
+
+    author = {C. Laorden and X. Ugarte-Pedrero and I. Santos and B. Sanz and J. Nieves and P.G. Bringas},
+
+    title = {On the Study of Anomaly-based Spam Filtering Using Spam as Representation of Normality},
+    
+    booktitle = {Proceedings of the 3$^{th}$ Consumer Communications and Network Conference (CCNC) Research Student Workshop},
+
+    year = {2012},
+}

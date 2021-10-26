@@ -1,0 +1,12 @@
+@inproceedings{sanchezrola-dimva2018-knock,
+  title        = {{Knockin' on Trackers' Door: Large-Scale Automatic Analysis of Web Tracking}},
+  author       = {Iskander Sanchez-Rola and Igor Santos},
+  booktitle    = {Proceedings of the 15th Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA)},
+  series       = {DIMVA},
+  year         = {2018},
+  month        = {June},
+  publisher    = {Springer},
+  location     = {Saclag, France},
+  keywords     = {web security, web trackin},
+  arate        = {18/59},
+  affiliations = {University of Deusto}

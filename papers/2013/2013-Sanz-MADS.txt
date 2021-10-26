@@ -1,0 +1,15 @@
+@incollection{
+	year={2013},
+	isbn={978-3-642-38630-5},
+	booktitle={Network and System Security},
+	volume={7873},
+	series={Lecture Notes in Computer Science},
+	editor={Lopez, Javier and Huang, Xinyi and Sandhu, Ravi},
+	doi={10.1007/978-3-642-38631-2_14},
+	title={MADS: Malicious Android Applications Detection through String Analysis},
+	url={http://dx.doi.org/10.1007/978-3-642-38631-2_14},
+	publisher={Springer Berlin Heidelberg},
+	keywords={malware; android; machine learning; security},
+	author={Sanz, Borja and Santos, Igor and Nieves, Javier and Laorden, Carlos and Alonso-Gonzalez, Iñigo and Bringas, PabloG.},
+	pages={178-191}
+}

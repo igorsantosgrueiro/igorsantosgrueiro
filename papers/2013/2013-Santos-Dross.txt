@@ -1,0 +1,7 @@
+@conference{santos013ICIEA,
+    
+    author = {Igor Santos and Javier Nieves and P.G. Bringas and Argoitz Zabala and Jon Sertucha},
+    title = {Supervised Learning Classification for Dross Prediction in Ductile Iron Casting Production},
+    booktitle= {Proceedings of 8th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+    year={2013},
+}

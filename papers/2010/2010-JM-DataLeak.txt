@@ -1,0 +1,12 @@
+@INPROCEEDINGS{gomez2010c,
+
+    author = {J. M. Gómez Hidalgo and J. M. Martín Abreu and  J. Nieves and  I. Santos and  F. Brezo and  P G. Bringas},
+
+    title = {Data Leak Prevention through Named Entity Recognition.},
+
+    booktitle = {In Proceedings of the 1st International Workshop on Privacy Aspects of Social Web and Cloud Computing (PASWeb). International Conference on Privacy, Security, Risk and Trust (PASSAT2010)},
+
+    year = {2010},
+   
+    pages ={1129--1134}, 
+}

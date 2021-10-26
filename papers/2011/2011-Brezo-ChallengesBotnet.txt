@@ -1,0 +1,10 @@
+@INPROCEEDINGS{brezo11b,
+
+    author = {Felix Brezo and Igor Santos and Pablo G. Bringas and José L. del Val},
+
+    title = {Challenges and Limitations in Current Botnet Detection},
+
+    booktitle = {In Proceedigns of the 6$^{th}$ International Workshop on Flexible Database and Information System Technology (FlexDBIST'11)},
+
+    year = {2011},
+}

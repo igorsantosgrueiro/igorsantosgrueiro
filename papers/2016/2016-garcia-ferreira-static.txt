@@ -1,0 +1,10 @@
+@article{garcia2016static,
+  title={Static analysis: a brief survey},
+  author={Garc{\'\i}a-Ferreira, Iv{\'a}n and Laorden, Carlos and Santos, Igor and Bringas, Pablo Garcia},
+  journal={Logic Journal of IGPL},
+  volume={24},
+  number={6}
+  pages={871--882},
+  year={2016},
+  publisher={Oxford University Press}
+}

@@ -1,0 +1,9 @@
+@InCollection{bringas2010,
+  author     = 	 {Pablo G. Bringas and I. Santos},
+  title      = 	 {Bayesian Networks for Network Intrusion Detection},
+  booktitle  = 	 {Bayesian Network},
+  pages      =	 {229--244},
+  publisher  =	 {Sciyo},
+  year       =	 2010,
+  editor     =	 {Ahmed Rebai}
+}

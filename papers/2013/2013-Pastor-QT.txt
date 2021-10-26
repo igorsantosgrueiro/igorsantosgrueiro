@@ -1,0 +1,15 @@
+@incollection{
+year={2014},
+isbn={978-3-319-01853-9},
+booktitle={International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+volume={239},
+series={Advances in Intelligent Systems and Computing},
+editor={Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio},
+doi={10.1007/978-3-319-01854-6_20},
+title={Enhanced Image Segmentation Using Quality Threshold Clustering for Surface Defect Categorisation in High Precision Automotive Castings},
+url={http://dx.doi.org/10.1007/978-3-319-01854-6_20},
+publisher={Springer International Publishing},
+keywords={Computer Vision; Machine-Learning; Defect Categorisation; Foundry},
+author={Pastor-López, Iker and Santos, Igor and de-la-Peña-Sordo, Jorge and García-Ferreira, Iván and Zabala, AsierG. and Bringas, PabloGarcía},
+pages={191-200}
+}

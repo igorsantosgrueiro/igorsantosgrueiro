@@ -1,0 +1,16 @@
+@article{nieves_2013_Enhancing.,
+
+    author = {J. Nieves and I. Santos and P.G. Bringas},
+
+    title = {Utilización de algoritmos de meta-clasificación para la mejora de los Modelos Predictivos de Control},
+    
+    journal= {Revista Dyna},
+
+    volume = {88},
+    
+    number= {3},
+
+	pages={291-299},
+
+    year = {2012},
+}

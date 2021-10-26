@@ -1,0 +1,9 @@
+@INPROCEEDINGS{sanz2013InstanceAndroid,
+    
+    author = {B. Sanz and I. Santos and X. Ugarte-Pedrero and C. Laorden and J. Nieves and P.G. Bringas},
+    title = {Instance-based Anomaly Method for Android Malware Detection},
+    booktitle = {Proceedings of the 6$^{th}$ International Conference on Security and Cryptography (SECRYPT)},
+    pages= {387-394},
+    isbn ={978-989-8565-73-0}
+
+}

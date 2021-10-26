@@ -1,0 +1,7 @@
+@INPROCEEDINGS{Laorden2011a,
+    author = {Carlos Laorden and Borja Sanz and Igor Santos and Patxi Gal\'an-Garc\'ia and Pablo G. Bringas},
+    title = {Collective Classification for Spam Filtering}, 
+    booktitle = {Proceedings of the 4$^{th}$ International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+    year = {2011},
+    pages = {1--8},
+}

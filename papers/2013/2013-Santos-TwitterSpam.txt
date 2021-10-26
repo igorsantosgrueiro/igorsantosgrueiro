@@ -1,0 +1,15 @@
+@incollection{santosCISIS2013,
+year={2014},
+isbn={978-3-319-01853-9},
+booktitle={International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+volume={239},
+series={Advances in Intelligent Systems and Computing},
+editor={Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio},
+doi={10.1007/978-3-319-01854-6_46},
+title={Twitter Content-Based Spam Filtering},
+url={http://dx.doi.org/10.1007/978-3-319-01854-6_46},
+publisher={Springer International Publishing},
+keywords={spam filtering; Twitter; social networks; machine learning; text classification},
+author={Santos, Igor and Miñambres-Marcos, Igor and Laorden, Carlos and Galán-García, Patxi and Santamaría-Ibirika, Aitor and Bringas, P.G.},
+pages={449-458}
+}

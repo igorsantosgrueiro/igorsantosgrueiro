@@ -1,0 +1,7 @@
+@conference{pastorlopez2012ICIEA,
+    
+    author = {Iker Pastor-L\'opez and Igor Santos and Aitor Santamar\'ia-Ibirika and Mikel Salazar and Jorge de-la-Pe\~na-Sordo and P.G. Bringas},
+    title = {Machine-learning-based Surface Defect Detection and Categorisation in High-Precision Foundry},
+    booktitle= {Proceedings of 7th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+    year={2012}, 
+}

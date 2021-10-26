@@ -1,0 +1,10 @@
+@article{galan2015supervised,
+  title={Supervised machine learning for the detection of troll profiles in twitter social network: application to a real case of cyberbullying},
+  author={Gal{\'a}n-Garc{\'I}a, Patxi and De La Puerta, Jos{\'e} Gaviria and G{\'o}mez, Carlos Laorden and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  journal={Logic Journal of IGPL},
+  volume={24},
+  number={42},
+  pages={42-53},
+  year={2016},
+  publisher={Oxford Univ Press}
+}

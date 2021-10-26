@@ -1,0 +1,10 @@
+@article{santos2011ESWA,
+    
+    author = {Igor Santos and J. de-la-Pe&ntilde;a-Sordo and I. Pastor-L&oacute;pez and  P. Galán-García and  P.G. Bringas},
+    title = {Automatic Categorisation of Comments in Social News Websites},
+    journal = {Expert Systems With Applications},
+    volume = {39},
+    number = {18},
+    pages = {13417–-13425},
+    note = {doi:10.1016/j.eswa.2012.05.061}
+}

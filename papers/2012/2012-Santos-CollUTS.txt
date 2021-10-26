@@ -1,0 +1,7 @@
+@conference{santos2012ICIEA,
+    
+    author = {Igor Santos and Javier Nieves and  P.G. Bringas},
+    title = {Collective Prediction of Ultimate Tensile Strength in High-precision Foundries},
+    booktitle= {Proceedings of 7th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+    year={2012},  
+}

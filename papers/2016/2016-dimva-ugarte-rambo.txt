@@ -1,0 +1,14 @@
+@article{ugarte-dimva2016-rambo,
+  title        = {{RAMBO: Run-time packer Analysis with Multiple Branch Observation}},
+  author       = {Xabier Ugarte-Pedrero and Davide Balzarotti and Igor Santos and Pablo G. Bringas},
+  booktitle    = {Proceedings of the 13th Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA)},
+  series       = {DIMVA},
+  year         = {2016},
+  month        = {July},
+  publisher    = {Springer},
+  location     = {San Sebastian, Spain},
+  keywords     = {malware, unpacking},
+  arate        = {21/66},
+  affiliations = {University of Deusto, Eurecom}
+}
+

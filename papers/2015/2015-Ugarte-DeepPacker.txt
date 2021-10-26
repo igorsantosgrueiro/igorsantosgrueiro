@@ -1,0 +1,6 @@
+@inproceedings{ugarte2015sok,
+  title={SoK: Deep Packer Inspection: A Longitudinal Study of the Complexity of Run-Time Packers},
+  author={Ugarte-Pedrero, Xabier and Balzarotti, Davide and Santos, Igor and Bringas, Pablo G},
+  booktitle={Proceedings of the 36th IEEE Symposium on Security and Privacy},
+  year={2015}
+}

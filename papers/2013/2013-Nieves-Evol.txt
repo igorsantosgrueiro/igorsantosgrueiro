@@ -1,0 +1,7 @@
+@conference{nieves013ICIEA,
+    
+    author = {Javier Nieves and Igor Santos and P.G. Bringas},
+    title = {Evolutionary Programming to Adjust the Process in High Precision Foundries},
+    booktitle= {Proceedings of 8th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+    year={2013},
+}

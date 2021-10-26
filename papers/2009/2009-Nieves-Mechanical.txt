@@ -1,0 +1,12 @@
+@INPROCEEDINGS{Nieves09,
+
+    author = {Javier Nieves and Igor Santos and Yoseba K. Penya and Sendoa Rojas and Mikel Salazar and Pablo G. Bringas},
+
+    title = {Mechanical Properties Prediction in High-Precision Foundry Production. },
+
+    booktitle = {Proceedings of the 7$^{th}$ IEEE International Conference on Industrial Informatics (INDIN 09)},
+
+    year = {2009},
+   
+    pages={31--36}
+}

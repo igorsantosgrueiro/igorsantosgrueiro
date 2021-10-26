@@ -1,0 +1,9 @@
+@InCollection{santosStructural2010,
+  author     = 	 {I.Santos and J. Nieves and P.G. Bringas and Y.K. Penya},
+  title      = 	 {Machine-Learning-Based Defect Prediction in High—Precision Foundry Production},
+  booktitle  = 	 {Structural Steel and Castings: Shapes and Standards, Properties and Applications},
+  pages      =	 {259--276},
+  publisher  =	 {Nova Publishers},
+  year       =	 2010,
+  editor     =	 {Lena M. Becker}
+}

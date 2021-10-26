@@ -1,0 +1,6 @@
+@incollection{2016-ict-sifis-Epidemic,
+  title={Epidemic Model for Malware Targeting Telephony Networks},
+  authors={Iosif Androulidakis, Sergio Huerta, Vasileios Vlachos, Igor Santos},
+  booktitle={Proceedings of the 23rd International Conference on Telecommunications (ICT)}
+  year={2016}
+}

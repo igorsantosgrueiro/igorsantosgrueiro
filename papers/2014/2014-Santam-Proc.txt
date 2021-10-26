@@ -1,0 +1,10 @@
+@article{santamaria2014procedural,
+  title={Procedural approach to volumetric terrain generation},
+  author={Santamar{\'\i}a-Ibirika, Aitor and Cantero, Xabier and Salazar, Mikel and Devesa, Jaime and Santos, Igor and Huerta, Sergio and Bringas, Pablo G},
+  journal={The Visual Computer},
+  volume={30},
+  number={9},
+  pages={997--1007},
+  year={2014},
+  publisher={Springer Berlin Heidelberg}
+}

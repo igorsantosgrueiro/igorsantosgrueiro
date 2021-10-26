@@ -1,0 +1,12 @@
+@INPROCEEDINGS{salazar2010a,
+
+    author = {Mikel Salazar and David Gallego and  Yoseba K. Penya and Igor Santos and Pablo G. Bringas},
+
+    title = {Fault-tolerant Defect Predicion in High-precision Foundry.},
+
+    booktitle = {In Proceedings of the 8$^{th}$ IEEE International Conference on Industrial Informatics (INDIN'10)},
+
+    year = {2010},
+   
+    pages ={373--378}, 
+}

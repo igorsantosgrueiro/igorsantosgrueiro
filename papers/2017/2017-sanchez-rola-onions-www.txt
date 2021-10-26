@@ -1,0 +1,12 @@
+@inproceedings{sanchez-rola17onions,
+    author       = {Iskander Sanchez-Rola and Davide Balzarotti and Igor Santos},
+    title        = {{The Onions Have Eyes: A Comprehensive Structure and Privacy Analysis of Tor Hidden Services}},
+    booktitle    = {Proceedings of the 26th International World Wide Web Conference (WWW)},
+    series       = {WWW 17},
+    address      = {Perth, Australia},
+    month        = {April},
+    year         = {2017},
+    arate        = {164/966},
+    affiliations = {Deusto,Eurecom}
+} 
+

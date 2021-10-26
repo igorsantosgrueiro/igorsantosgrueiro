@@ -1,0 +1,10 @@
+@article{laorden2014negobot,
+  title={Negobot: Detecting paedophile activity with a conversational agent based on game theory},
+  author={Laorden, Carlos and Gal{\'a}n-Garc{\'\i}a, Patxi and Santos, Igor and Sanz, Borja and Nieves, Javier and Bringas, Pablo G and Hidalgo, Jose Mar{\'\i}a G{\'o}mez},
+  journal={Logic Journal of IGPL},
+  pages={17--30},
+  volume={23},
+  number={1},
+  year={2015},
+  publisher={Oxford University Press}
+}

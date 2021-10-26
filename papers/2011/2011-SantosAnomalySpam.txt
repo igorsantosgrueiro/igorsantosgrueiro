@@ -1,0 +1,7 @@
+@INPROCEEDINGS{Santos2011secrypt,
+    author = {Igor Santos and Carlos Laorden and Xabier Ugarte-Pedrero and Borja Sanz and Pablo G. Bringas},
+    title = {Anomaly-based Spam Filtering},
+    booktitle = {Proceedings of the 6$^{th}$ International Conference on Security and Cryptography (SECRYPT)},
+    pages= {5--14},
+
+}

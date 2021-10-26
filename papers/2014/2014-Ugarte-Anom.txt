@@ -1,0 +1,9 @@
+@article{ugarte2014adoption,
+  title={On the adoption of anomaly detection for packed executable filtering},
+  author={Ugarte-Pedrero, Xabier and Santos, Igor and Garc{\'\i}a-Ferreira, Iv{\'a}n and Huerta, Sergio and Sanz, Borja and Bringas, Pablo G},
+  journal={Computers \& Security},
+  volume={43},
+  pages={126--144},
+  year={2014},
+  publisher={Elsevier Advanced Technology}
+}

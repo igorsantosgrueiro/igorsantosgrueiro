@@ -1,0 +1,6 @@
+@conference{brezo2012CLEI,
+    
+    author = {F\'elix Brezo and Jos\'e Gaviria-de-la-Puerta and Xabier Ugarte-Pedrero and Igor Santos and David Barroso and Pablo Garc\'ia Bringas},
+    title = {Clasificación supervisada de paquetes procedentes de una botnet HTTP},
+    booktitle= {Proceedigns of the 23th Conferencia Latinoamericana en Informática (CLEI 2012)},
+}

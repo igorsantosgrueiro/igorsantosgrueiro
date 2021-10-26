@@ -1,0 +1,14 @@
+@inproceedings{ugarte2012_Countering,
+  author    = {Xabier Ugarte-Pedrero and
+               Igor Santos and
+               Borja Sanz and
+               Carlos Laorden and
+               Pablo Garcia Bringas},
+  title     = {Countering entropy measure attacks on packed software detection},
+  booktitle = {CCNC},
+  year      = {2012},
+  pages     = {164-168},
+  ee        = {http://dx.doi.org/10.1109/CCNC.2012.6181079},
+  crossref  = {DBLP:conf/ccnc/2012},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}

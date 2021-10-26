@@ -1,0 +1,9 @@
+@article{santosIETIFS,    
+    author = {Igor Santos and Felix Brezo and Borja Sanz and Carlos Laorden and Pablo Garc\'ia Bringas},
+    title = {Using Opcode Sequences in Single-Class Learning to Detect Unknown Malware},
+    journal = {IET Information Security},
+    volume = {??},
+    number = {??},
+    pages = {??},
+    note = {in press}
+}

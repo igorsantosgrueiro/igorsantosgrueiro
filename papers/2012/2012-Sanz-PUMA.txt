@@ -1,0 +1,18 @@
+@INPROCEEDINGS{Sanz2012PUMA,
+
+    author = {B. Sanz and I. Santos and C. Laorden and X. Ugarte-Pedrero P.G. Bringas and G. Alvarez},
+
+    title = {PUMA: Permission Usage to detect Malware in Android},
+    
+       booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+
+   volume = {189},
+
+ pages={289-298},
+
+    year = {2012},
+
+   isbn ={978-3-642-33017-9},
+
+   doi = {10.1007/978-3-642-33018-6_30}
+}

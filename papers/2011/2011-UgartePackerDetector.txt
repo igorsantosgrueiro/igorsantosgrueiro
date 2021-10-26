@@ -1,0 +1,7 @@
+@INPROCEEDINGS{Ugarte-Pedrero2011a,
+    author = {Xabier Ugarte-Pedrero and Igor Santos and Pablo G. Bringas},
+    title = {Structural Feature based Anomaly Detection for Packed Executable Identification},
+    booktitle = {Proceedings of the 4$^{th}$ International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+    year = {2011},
+    pages = {50--57},
+}

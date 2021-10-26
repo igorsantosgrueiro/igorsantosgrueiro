@@ -1,0 +1,9 @@
+@inproceedings{sanchez-rola19gdpr,
+  title = {{Can I Opt Out Yet? GDPR and the Global Illusion of Cookie Control}},
+  author = {Iskander Sanchez-Rola, Matteo Dell'Amico, Platon Kotzias, Davide Balzarotti, Leyla Bilge, Pierre-Antoine Vervier, Igor Santos},
+  booktitle = {ACM ASIA Conference on Computer and Communications Security (ASIACCS)},
+  month = {July},
+  year = {2019},
+  keywords = {user privacy, browser cookies, GDPR},
+  affiliations = {University of Deusto, Symantec Research Labs, IMDEA Software Institute, Univ. Polit\'ecnica de Madrid, Eurecom},
+}

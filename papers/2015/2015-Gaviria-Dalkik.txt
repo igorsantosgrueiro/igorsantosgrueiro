@@ -1,0 +1,8 @@
+@inproceedings{de2015using,
+  title={Using Dalvik Opcodes for Malware Detection on Android},
+  author={Gaviria-de-la-Puerta, Jos{\'e} and Sanz, Borja and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  booktitle={Hybrid Artificial Intelligent Systems},
+  pages={416--426},
+  year={2015},
+  organization={Springer International Publishing}
+}
