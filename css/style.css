@@ -296,14 +296,14 @@ header
 .content_imagetext
 { max-width: 845x;
   padding: 5px;
-  margin: 20px 0 0 0;
-  float: left;}
+  margin: 22px 0 0 0;
+  float: right;}
  
 .content_image
-{ float: left;
+{ float: right;
   width: 22%;
   /*height: 250px;*/
-  margin: 0 20px 10px 0;
+  margin: 0 10px 30px 0;
   padding: 10px;
   -moz-box-shadow:    inset 0 0 20px #33ff66;/*#ADADAD;*/
   -webkit-box-shadow: inset 0 0 20px #33ff66;/*#ADADAD;*/
