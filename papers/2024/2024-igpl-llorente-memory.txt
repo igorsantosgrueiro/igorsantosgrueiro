@@ -1,0 +1,10 @@
+@article{llorente2024memoryconcurrent,
+  title={Detection, exploitation and mitigation of memory errors},
+  author={Llorente-Vazquez, Oscar and Santos-Grueiro, Igor and Pastor-López,
+  Iker amd Bringas, Pablo Garcia},
+  journal={Logic Journal of the IGPL},
+  volume={32},
+  issue={2}
+  year={2024},
+  pages={281--292},
+}
