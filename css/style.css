@@ -294,16 +294,16 @@ header
   margin-bottom: 20px;}
  
 .content_imagetext
-{ max-width: 890px;
+{ max-width: 845x;
   padding: 5px;
   margin: 20px 0 0 0;
   float: left;}
  
 .content_image
 { float: left;
-  width: 50%;
+  width: 21%;
   /*height: 250px;*/
-  margin: 0 20px 10px 0;
+  margin: 0 10px 20px 0px;
   padding: 10px;
   -moz-box-shadow:    inset 0 0 20px #33ff66;/*#ADADAD;*/
   -webkit-box-shadow: inset 0 0 20px #33ff66;/*#ADADAD;*/

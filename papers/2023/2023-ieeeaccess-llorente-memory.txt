@@ -1,0 +1,7 @@
+@article{llorente2023memory,
+  title={When Memory Corruption Met Concurrency: Vulnerabilities in Concurrent Programs},
+  author={Llorente-Vazquez, Oscar and Santos-Grueiro, Igor and Bringas, Pablo Garcia},
+  journal={IEEE Access},
+  year={2023},
+  publisher={IEEE}
+}
