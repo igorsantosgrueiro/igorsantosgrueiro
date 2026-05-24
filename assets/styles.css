@@ -580,11 +580,11 @@ pre {
 
 .adventure-referee {
   position: absolute;
-  top: 0.45rem;
+  bottom: 5.35rem;
   left: 50%;
-  z-index: 3;
+  z-index: 1;
   display: block;
-  width: 70px;
+  width: 58px;
   height: auto;
   transform: translateX(-50%);
   image-rendering: pixelated;
@@ -636,7 +636,7 @@ pre {
 .pirate {
   position: absolute;
   bottom: 1rem;
-  z-index: 2;
+  z-index: 3;
   display: grid;
   justify-items: center;
   gap: 0.2rem;
@@ -1161,7 +1161,8 @@ pre {
   }
 
   .adventure-referee {
-    width: 52px;
+    bottom: 4.45rem;
+    width: 44px;
   }
 
   .pirate-player {
