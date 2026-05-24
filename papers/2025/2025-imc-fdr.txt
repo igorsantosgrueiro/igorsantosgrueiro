@@ -1,7 +1,0 @@
-@inproceedings{fernandez2025permissions,
-  title={A Permissions Odyssey: A Systematic Study of Browser Permissions on Modern Websites},
-  author={Fernandez-de-Retana, Alberto and Rautenstrauch, Jannis and Santos-Grueiro, Igor and Stock, Ben},
-  booktitle={Proceedings of the 2025 ACM Internet Measurement Conference},
-  pages={342--358},
-  year={2025}
-}

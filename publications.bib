@@ -1,0 +1,1327 @@
+% Publications for santosgrueiro.com
+% Generated from the previous public site on 2026-05-24.
+% Edit this file to add, remove, or correct papers; the website renders it automatically.
+% Optional custom fields understood by the page: pdf, slides, talk, code, data, media.
+
+@inproceedings{fernandez2025permissions,
+  title = {A Permissions Odyssey: A Systematic Study of Browser Permissions on Modern Websites},
+  author = {Fernandez-de-Retana, Alberto and Rautenstrauch, Jannis and Santos-Grueiro, Igor and Stock, Ben},
+  booktitle = {Proceedings of the 2025 ACM Internet Measurement Conference},
+  publisher = {ACM},
+  pages = {342--358},
+  year = {2025},
+  doi = {10.1145/3730567.3764489},
+  pdf = {papers/2025/2025-imc-fdr.pdf}
+}
+
+@article{llorente2024memoryconcurrent,
+  title = {Detection, exploitation and mitigation of memory errors},
+  author = {Llorente-Vazquez, Oscar and Santos-Grueiro, Igor and Pastor-López, Iker amd Bringas, Pablo Garcia},
+  journal = {Logic Journal of the IGPL},
+  publisher = {Oxford University Press (OUP)},
+  volume = {32},
+  number = {2},
+  pages = {281--292},
+  year = {2024},
+  doi = {10.1093/jigpal/jzae008},
+  pdf = {papers/2024/2024-igpl-llorente-memory.pdf}
+}
+
+@article{llorente2023memory,
+  title = {When Memory Corruption Met Concurrency: Vulnerabilities in Concurrent Programs},
+  author = {Llorente-Vazquez, Oscar and Santos-Grueiro, Igor and Bringas, Pablo Garcia},
+  journal = {IEEE Access},
+  publisher = {IEEE},
+  volume = {11},
+  pages = {44725--44740},
+  year = {2023},
+  doi = {10.1109/access.2023.3272833},
+  pdf = {papers/2023/2023-ieeeaccess-llorente-memory.pdf}
+}
+
+@article{10.1145/3419473,
+  title = {Cookies from the Past: Timing Server-Side Request Processing Code for History Sniffing},
+  author = {Sanchez-Rola, Iskander and Balzarotti, Davide and Santos, Igor},
+  journal = {Digital Threats: Research and Practice},
+  publisher = {Association for Computing Machinery},
+  volume = {1},
+  number = {4},
+  year = {2020},
+  month = {dec},
+  address = {New York, NY, USA},
+  doi = {10.1145/3419473},
+  issn = {2692-1626},
+  keywords = {User privacy, browser cookies, history sniffing},
+  pdf = {papers/2020/2020-sanchez-rola-dtrap-cookies.pdf},
+  issue_date = {December 2020},
+  abstract = {Cookies were originally introduced as a way to provide state awareness to websites, and they are now one of the backbones of the current web. However, their use is not limited to store the login information or to save the current state of user browsing. In several cases, third-party cookies are deliberately used for web tracking, user analytics, and for online advertisement, with the subsequent privacy loss for the end-users.However, cookies are not the only technique capable of retrieving the users’ browsing history. In fact, history sniffing techniques are capable of tracking the users’ browsing history without relying on any specific code in a third-party website, but only on code executed within the visited site. Many sniffing techniques have been proposed to date, but they usually have several limitations, and they are not able to differentiate between multiple possible states within the target application.We propose BakingTimer, a new history-sniffing technique based on timing the execution of server-side request processing code. This method is capable of retrieving partial or complete user browsing history, it does not require any permission, and it can be performed through both first- and third-party scripts. We studied the impact of our timing side-channel attack to detect prior visits to websites and discovered that it was capable of detecting the users’ state in more than half of the 10K websites analyzed, which is the largest test performed to date to test this type of technique. We additionally performed a manual analysis to check the capabilities of the attack to differentiate between three states: never accessed, accessed, and logged in. Moreover, we performed a set of stability tests to verify that our time measurements are robust with respect to changes both in the network RTT and in the servers workload. This extended version additionally includes a comprehensive analysis of existing countermeasures, starting from its evolution/adoption, and finishing with a large-scale experiment to asset the repercussions on the presented technique.},
+  articleno = {24},
+  numpages = {24}
+}
+
+@inproceedings{sanchezRola20dirtyclicks,
+  title = {{Dirty Clicks: a Study of the Usability and Security Implications of Click-related Behaviors on the Web}},
+  author = {Sanchez-Rola, Iskander and Balzarotti, Davide and Kruegel, Christopher and Vigna, Giovanni and Santos, Igor},
+  booktitle = {World Wide Web Conference (WWW)},
+  publisher = {ACM},
+  pages = {395--406},
+  year = {2020},
+  doi = {10.1145/3366423.3380124},
+  arate = {217/1129},
+  keywords = {clicks, browser security, usability},
+  affiliations = {University of Deusto, NortonLifeLock Research Group, Eurecom, UC Santa Barbara},
+  pdf = {papers/2020/2020-sanchez-rola-www-dirty-clicks.pdf},
+  slides = {papers/2020/2020-sanchez-rola-www-dirty-clicks-slides.pdf}
+}
+
+@inproceedings{sanchezRola19bakingTimer,
+  title = {{BakingTimer: Privacy Analysis of Server-Side Request Processing Time}},
+  author = {Sanchez-Rola, Iskander and Balzarotti, Davide and Santos, Igor},
+  booktitle = {Annual Computer Security Applications Conference (ACSAC)},
+  year = {2019},
+  arate = {60/266},
+  keywords = {user privacy, browser cookies, history sniffing},
+  affiliations = {University of Deusto, Symantec Research Labs, Eurecom},
+  pdf = {papers/2019/2019-sanchez-rola-acsac-bakingtimer.pdf},
+  slides = {papers/2019/2019-sanchez-rola-acsac-bakingtimer-slides.pdf}
+}
+
+@inproceedings{sanchez-rola19gdpr,
+  title = {{Can I Opt Out Yet? GDPR and the Global Illusion of Cookie Control}},
+  author = {Iskander Sanchez-Rola, Matteo Dell'Amico, Platon Kotzias, Davide Balzarotti, Leyla Bilge, Pierre-Antoine Vervier, Igor Santos},
+  booktitle = {ACM ASIA Conference on Computer and Communications Security (ASIACCS)},
+  year = {2019},
+  month = {July},
+  keywords = {user privacy, browser cookies, GDPR},
+  affiliations = {University of Deusto, Symantec Research Labs, IMDEA Software Institute, Univ. Polit\'ecnica de Madrid, Eurecom},
+  pdf = {papers/2019/2019-sanchez-rola-asiaccs-opt-out-GDPR.pdf}
+}
+
+@inproceedings{sanchez-rola18clock,
+  title = {{Clock Around the Clock: Time-Based Device Fingerprinting}},
+  author = {Iskander Sanchez-Rola, Igor Santos, Davide Balzarotti},
+  booktitle = {Proceedings of the 25th ACM Conference on Computer and Communications Security},
+  year = {2018},
+  month = {October},
+  arate = {134/809},
+  keywords = {fingerprinting, web privacy},
+  affiliations = {University of Deusto, Eurecom},
+  pdf = {papers/2018/2018-sanchez-rola-ccs-clock.pdf},
+  slides = {papers/2018/2018-sanchez-rola-ccs-clock-slides.pdf},
+  talk = {https://www.youtube.com/watch?v=5sZT9FTx3aQ},
+  media = {New Scientist::https://www.newscientist.com/article/2185494-web-tracker-can-follow-you-for-months-even-if-you-delete-your-cookies/; Metro::https://www.metro.news/mission-to-take-a-p-p-pic-of-a-penguin/1319475/; TechNews::https://technews.acm.org/archives.cfm?fo=2018-11-nov/nov-16-2018.html}
+}
+
+@inproceedings{sanchezrola-dimva2018-knock,
+  title = {{Knockin' on Trackers' Door: Large-Scale Automatic Analysis of Web Tracking}},
+  author = {Iskander Sanchez-Rola and Igor Santos},
+  booktitle = {Proceedings of the 15th Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA)},
+  series = {DIMVA},
+  publisher = {Springer},
+  pages = {281--302},
+  year = {2018},
+  month = {June},
+  location = {Saclag, France},
+  doi = {10.1007/978-3-319-93411-2_13},
+  arate = {18/59},
+  keywords = {web security, web trackin},
+  affiliations = {University of Deusto},
+  pdf = {papers/2018/2018-sanchez-rola-dimva-knocking.pdf},
+  slides = {papers/2018/2018-sanchez-rola-dimva-knocking-slides.pdf}
+}
+
+@inproceedings{sanchez-rola2017-extension-usenix-sec,
+  title = {{Extension Breakdown: Security Analysis of Browsers Extension Resources Control Policies}},
+  author = {Iskander Sanchez-Rola and Igor Santos and Davide Balzarotti},
+  booktitle = {Proceedings of the 26th USENIX Security Symposium (Sec)},
+  pages = {679--694},
+  year = {2016},
+  month = {August},
+  arate = {85/522},
+  keywords = {browser security, extensions, attack},
+  affiliations = {University of Deusto, Eurecom},
+  pdf = {papers/2017/2017-sanchez-rola-extensions-usenix.pdf},
+  slides = {papers/2017/2017-sanchez-rola-extensions-usenix-slides.pdf},
+  talk = {https://www.youtube.com/watch?v=DCHfiKbbyj8},
+  media = {SecurityWeek::http://www.securityweek.com/unpatched-vulnerabilities-impact-popular-browser-extension-systems; BleepingComputer::https://www.bleepingcomputer.com/news/security/unpatched-flaws-affect-chrome-firefox-and-safari-browser-extension-systems/; Ghacks (1)::https://www.ghacks.net/2017/08/29/browsers-leak-installed-extensions-to-sites/; Ghacks (2)::https://www.ghacks.net/2017/08/30/firefox-webextensions-may-identify-you-on-the-internet/; FayerWayer::https://www.fayerwayer.com/2017/08/navegadores-filtran-lista-de-extensiones-instaladas-sitios-web/}
+}
+
+@inproceedings{sanchez-rola17onions,
+  title = {{The Onions Have Eyes: A Comprehensive Structure and Privacy Analysis of Tor Hidden Services}},
+  author = {Iskander Sanchez-Rola and Davide Balzarotti and Igor Santos},
+  booktitle = {Proceedings of the 26th International World Wide Web Conference (WWW)},
+  series = {WWW 17},
+  year = {2017},
+  month = {April},
+  address = {Perth, Australia},
+  arate = {164/966},
+  affiliations = {Deusto,Eurecom},
+  pdf = {papers/2017/2017-sanchez-rola-onions-www.pdf},
+  slides = {papers/2017/2017-sanchez-rola-onions-www-slides.pdf},
+  media = {New Scientist::https://www.newscientist.com/article/2126472-trackers-could-unmask-dark-web-users-who-think-theyre-anonymous/; Daily Mail::http://www.dailymail.co.uk/sciencetech/article-4375184/Trackers-reveal-criminals-think-hidden.html; DeepDotWeb::https://www.deepdotweb.com/2017/03/25/comprehensive-privacy-analysis-tor-hidden-services/; Jornal Ciencia::http://www.jornalciencia.com/falhas-de-seguranca-em-navegadores-podem-revelar-identidades-de-usuarios-da-dark-web/}
+}
+
+@article{sanchez2016web,
+  title = {The web is watching you: A comprehensive review of web-tracking techniques and countermeasures},
+  author = {Sanchez-Rola, Iskander and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo G},
+  journal = {Logic Journal of IGPL},
+  publisher = {Oxford University Press},
+  volume = {25},
+  number = {1},
+  pages = {18--29},
+  year = {2016},
+  doi = {10.1093/jigpal/jzw041},
+  pdf = {papers/2017/2017-sanchez-rola-twwy.pdf}
+}
+
+@inproceedings{diezfranco2016DataIs,
+  title = {{Data is Flowing in the Wind: A Review of Data-Flow Integrity Methods to Overcome Non-Control-Data Attacks}},
+  author = {D{\'i}ez-Franco, Irene and Santos, Igor},
+  booktitle = {Proceedings of the International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer International Publishing},
+  pages = {536--544},
+  year = {2016},
+  doi = {10.1007/978-3-319-47364-2_52},
+  pdf = {papers/2016/2016-diezfranco-cisis16-data-is-flowing-in-the-wind.pdf},
+  slides = {papers/2016/2016-diezfranco-cisis16-data-is-flowing-in-the-wind-slides.pdf}
+}
+
+@inproceedings{diezfranco2016FeelMe,
+  title = {{Feel me Flow: A Review of Control-Flow Integrity Methods for User and Kernel Space}},
+  author = {D{\'i}ez-Franco, Irene and Santos, Igor},
+  booktitle = {Proceedings of the International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer International Publishing},
+  pages = {477--486},
+  year = {2016},
+  doi = {10.1007/978-3-319-47364-2_46},
+  pdf = {papers/2016/2016-diezfranco-cisis16-feel-the-flow.pdf},
+  slides = {papers/2016/2016-diezfranco-cisis16-feel-the-flow-slides.pdf}
+}
+
+@article{garcia2016static,
+  title = {Static analysis: a brief survey},
+  author = {Garc{\'\i}a-Ferreira, Iv{\'a}n and Laorden, Carlos and Santos, Igor and Bringas, Pablo Garcia},
+  journal = {Logic Journal of IGPL},
+  publisher = {Oxford University Press},
+  volume = {24},
+  number = {6},
+  pages = {871--882},
+  year = {2016},
+  doi = {10.1093/jigpal/jzw042}
+}
+
+@article{penya2016anomaly,
+  title = {Anomaly-based user comments detection in social news websites using troll user comments as normality representation},
+  author = {de-la-Pe{\~n}a-Sordo, Jorge and Pastor-L{\'o}pez, Iker and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo G},
+  journal = {Logic Journal of IGPL},
+  publisher = {Oxford University Press},
+  volume = {24},
+  number = {6},
+  pages = {883--898},
+  year = {2016},
+  doi = {10.1093/jigpal/jzw043}
+}
+
+@article{2016talmeidashortspam,
+  title = {Text normalization and semantic indexing to enhance Instant Messaging and \{SMS\} spam filtering},
+  author = {Tiago A. Almeida and Tiago P. Silva and Igor Santos and José M. Gómez Hidalgo},
+  journal = {Knowledge-Based Systems},
+  publisher = {Elsevier BV},
+  volume = {108},
+  pages = {25--32},
+  year = {2016},
+  doi = {10.1016/j.knosys.2016.05.001},
+  url = {http://www.sciencedirect.com/science/article/pii/S095070511630090\ 9},
+  issn = {0950-7051},
+  keywords = {Natural language processing},
+  pdf = {papers/2016/2016-talmeida-kbs-short-spam.pdf},
+  note = {New Avenues in Knowledge Bases for Natural Language Processing},
+  abstract = {Abstract The rapid popularization of smartphones has contributed to the growth of online Instant Messaging and \{SMS\} usage as an alternative way of communication. The increasing number of users, along with the trust they inherently have in their devices, makes such messages a propitious environment for spammers. In fact, reports clearly indicate that volume of spam over Instant Messaging and \{SMS\} is dramatically increasing year by year. It represents a challenging problem for traditional filtering methods nowadays, since such messages are usually fairly short and normally rife with slangs, idioms, symbols and acronyms that make even tokenization a difficult task. In this scenario, this paper proposes and then evaluates a method to normalize and expand original short and messy text messages in order to acquire better attributes and enhance the classification performance. The proposed text processing approach is based on lexicographic and semantic dictionaries along with state-of-the-art techniques for semantic analysis and context detection. This technique is used to normalize terms and create new attributes in order to change and expand original text samples aiming to alleviate factors that can degrade the algorithms performance, such as redundancies and inconsistencies. We have evaluated our approach with a public, real and non-encoded data-set along with several established machine learning methods. Our experiments were diligently designed to ensure statistically sound results which indicate that the proposed text processing techniques can in fact enhance Instant Messaging and \{SMS\} spam filtering.}
+}
+
+@article{ugarte-dimva2016-rambo,
+  title = {{RAMBO: Run-time packer Analysis with Multiple Branch Observation}},
+  author = {Xabier Ugarte-Pedrero and Davide Balzarotti and Igor Santos and Pablo G. Bringas},
+  journal = {Lecture Notes in Computer Science},
+  booktitle = {Proceedings of the 13th Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA)},
+  series = {DIMVA},
+  publisher = {Springer},
+  pages = {186--206},
+  year = {2016},
+  month = {July},
+  location = {San Sebastian, Spain},
+  doi = {10.1007/978-3-319-40667-1_10},
+  arate = {21/66},
+  keywords = {malware, unpacking},
+  affiliations = {University of Deusto, Eurecom},
+  pdf = {papers/2016/2016-dimva-ugarte-rambo.pdf},
+  slides = {papers/2016/2016-dimva-ugarte-rambo-slides.pdf}
+}
+
+@incollection{2016-ict-sifis-Epidemic,
+  title = {Epidemic Model for Malware Targeting Telephony Networks},
+  booktitle = {Proceedings of the 23rd International Conference on Telecommunications (ICT)},
+  publisher = {IEEE},
+  volume = {1},
+  pages = {1--5},
+  year = {2016},
+  doi = {10.1109/ict.2016.7500450},
+  pdf = {papers/2016/2016-ict-sifis-epidemic.pdf},
+  authors = {Iosif Androulidakis, Sergio Huerta, Vasileios Vlachos, Igor Santos}
+}
+
+@article{galan2015supervised,
+  title = {Supervised machine learning for the detection of troll profiles in twitter social network: application to a real case of cyberbullying},
+  author = {Gal{\'a}n-Garc{\'I}a, Patxi and De La Puerta, Jos{\'e} Gaviria and G{\'o}mez, Carlos Laorden and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  journal = {Logic Journal of IGPL},
+  publisher = {Oxford Univ Press},
+  volume = {24},
+  number = {42},
+  pages = {42--53},
+  year = {2016},
+  doi = {10.1007/978-3-319-01854-6_43},
+  pdf = {papers/2016/2016-Galan-Garcia-SupervisedTroll-IGPL.pdf}
+}
+
+@article{laorden2014negobot,
+  title = {Negobot: Detecting paedophile activity with a conversational agent based on game theory},
+  author = {Laorden, Carlos and Gal{\'a}n-Garc{\'\i}a, Patxi and Santos, Igor and Sanz, Borja and Nieves, Javier and Bringas, Pablo G and Hidalgo, Jose Mar{\'\i}a G{\'o}mez},
+  journal = {Logic Journal of IGPL},
+  publisher = {Oxford University Press},
+  volume = {23},
+  number = {1},
+  pages = {17--30},
+  year = {2015},
+  doi = {10.1093/jigpal/jzu034},
+  pdf = {papers/2015/2015-Laorden-Negobot.pdf}
+}
+
+@inproceedings{de2015using,
+  title = {Using Dalvik Opcodes for Malware Detection on Android},
+  author = {Gaviria-de-la-Puerta, Jos{\'e} and Sanz, Borja and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  booktitle = {Hybrid Artificial Intelligent Systems},
+  publisher = {Springer International Publishing},
+  volume = {25},
+  number = {6},
+  pages = {416--426},
+  year = {2015},
+  doi = {10.1007/978-3-319-19644-2_35},
+  pdf = {papers/2015/2015-Gaviria-Dalkik.pdf},
+  organization = {Springer International Publishing}
+}
+
+@inproceedings{gaviria2015evolution,
+  title = {The Evolution of Permission as Feature for Android Malware Detection},
+  author = {Gaviria de la Puerta, Jos{\'e} and Sanz, Borja and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  booktitle = {International Joint Conference CISIS-SOCO-ICEUTE},
+  publisher = {Springer International Publishing},
+  pages = {389--400},
+  year = {2015},
+  doi = {10.1007/978-3-319-19713-5_33},
+  pdf = {papers/2015/2015-Gaviria-Permission.pdf},
+  organization = {Springer}
+}
+
+@incollection{sanchez2015tracking,
+  title = {Tracking Users Like There is No Tomorrow: Privacy on the Current Internet},
+  author = {S{\'a}nchez-Rola, Iskander and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo G},
+  booktitle = {International Joint Conference CISIS-SOCO-ICEUTE},
+  publisher = {Springer International Publishing},
+  pages = {473--483},
+  year = {2015},
+  doi = {10.1007/978-3-319-19713-5_41},
+  pdf = {papers/2015/2015-Sanchez-TrackingSurvey.pdf}
+}
+
+@inproceedings{ugarte2015sok,
+  title = {SoK: Deep Packer Inspection: A Longitudinal Study of the Complexity of Run-Time Packers},
+  author = {Ugarte-Pedrero, Xabier and Balzarotti, Davide and Santos, Igor and Bringas, Pablo G},
+  booktitle = {Proceedings of the 36th IEEE Symposium on Security and Privacy},
+  publisher = {IEEE},
+  pages = {659--673},
+  year = {2015},
+  doi = {10.1109/sp.2015.46},
+  pdf = {papers/2015/2015-Ugarte-DeepPacker.pdf},
+  talk = {https://www.youtube.com/watch?v=DQG4Wz6sU98}
+}
+
+@inproceedings{pastor2015BCLP,
+  title = {Surface Defect Categorization of Imperfections in High Precision Automotive Iron Foundries using Best Crossing Line Profile},
+  author = {Pastor-Lopez, Iker and Santos, Igor and Bringas, Pablo G},
+  booktitle = {Proceedings of the 10th IEEE Conference on Industrial Electronics and Applications (ICIEA)},
+  publisher = {IEEE},
+  volume = {4},
+  pages = {339--344},
+  year = {2015},
+  doi = {10.1109/iciea.2015.7334136},
+  pdf = {papers/2015/2015-Pastor-BCLP.pdf}
+}
+
+@inproceedings{jorge2015comp,
+  title = {Using Compression Models for Filtering Troll Comments},
+  author = {J. de-la-Pe\~{n}a-Sordo, I. Santos, P.G. Bringas},
+  booktitle = {Proceedings of the 10th IEEE Conference on Industrial Electronics and Applications (ICIEA)},
+  publisher = {IEEE},
+  pages = {655--660},
+  year = {2015},
+  doi = {10.1109/iciea.2015.7334191},
+  pdf = {papers/2015/2015-Jorge-Comp.pdf}
+}
+
+@inproceedings{santamariaibirika2014ProceduralPlayable,
+  title = {Procedural Playable Cave Systems Based on Voronoi Diagram and Delaunay Triangulation},
+  author = {Santamaria-Ibirika, Aitor and Cantero, Xabier and Huerta, Sergio and Santos, Igor and Bringas, Pablo G},
+  booktitle = {2014 International Conference on Cyberworlds (CW)},
+  publisher = {IEEE},
+  volume = {7},
+  pages = {15--22},
+  year = {2014},
+  doi = {10.1109/cw.2014.11},
+  pdf = {papers/2014/2014-Santam-Cave.pdf},
+  organization = {IEEE}
+}
+
+@article{santamariaibirika2014ProceduralApproach,
+  title = {Procedural approach to volumetric terrain generation},
+  author = {Santamar{\'\i}a-Ibirika, Aitor and Cantero, Xabier and Salazar, Mikel and Devesa, Jaime and Santos, Igor and Huerta, Sergio and Bringas, Pablo G},
+  journal = {The Visual Computer},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {30},
+  number = {9},
+  pages = {997--1007},
+  year = {2014},
+  doi = {10.1007/s00371-013-0909-y},
+  pdf = {papers/2014/2014-Santam-Proc.pdf}
+}
+
+@article{ugarte2014adoption,
+  title = {On the adoption of anomaly detection for packed executable filtering},
+  author = {Ugarte-Pedrero, Xabier and Santos, Igor and Garc{\'\i}a-Ferreira, Iv{\'a}n and Huerta, Sergio and Sanz, Borja and Bringas, Pablo G},
+  journal = {Computers \& Security},
+  publisher = {Elsevier Advanced Technology},
+  volume = {43},
+  pages = {126--144},
+  year = {2014},
+  doi = {10.1016/j.cose.2014.03.012},
+  pdf = {papers/2014/2014-Ugarte-Anom.pdf}
+}
+
+@inproceedings{nieves2014enhancing,
+  title = {Enhancing the stationary state prediction in Model Predictive Control systems to avoid Dross defect in heavy-section foundries},
+  author = {Nieves, Javier and Santos, Igor and Bringas, Pablo G and Zabala, Argoitz and Sertucha, Jon},
+  booktitle = {Industrial Electronics and Applications (ICIEA), 2014 IEEE 9th Conference on},
+  publisher = {IEEE},
+  volume = {6861},
+  pages = {424--429},
+  year = {2014},
+  doi = {10.1109/iciea.2014.6931200},
+  pdf = {papers/2014/2014-Nieves-Enhancing.pdf},
+  organization = {IEEE}
+}
+
+@inproceedings{silva2014normalizaccao,
+  title = {Normaliza{\c{c}}{\~a}o Textual e Indexa{\c{c}}{\~a}o Sem{\^a}ntica Aplicadas na Filtragem de SMS Spam},
+  author = {Silva, Tiago P and Santos, Igor and Almeida, Tiago A and Hidalgo, Jose M Gomez},
+  booktitle = {Anais do XI Encontro Nacional de Intelig{\^e}ncia Artificial e Computacional (ENIAC'14), S{\~a}o Carlos, Brazil},
+  year = {2014},
+  pdf = {papers/2014/2014-Silva-Norm.pdf}
+}
+
+@incollection{santos2014empirical,
+  title = {An Empirical Study on Word Sense Disambiguation for Adult Content Filtering},
+  author = {Santos, Igor and Gal{\'a}n-Garc{\'\i}a, Patxi and G{\'o}mez, Carlos Laorden and Nieves, Javier and Sanz, Borja and Bringas, Pablo Garc{\'\i}a and G{\'o}mez, Jose Maria},
+  booktitle = {International Joint Conference SOCO’14-CISIS’14-ICEUTE’14},
+  publisher = {Springer International Publishing},
+  pages = {537--544},
+  year = {2014},
+  doi = {10.1007/978-3-319-07995-0_53},
+  pdf = {papers/2014/2014-Santos-Adult.pdf}
+}
+
+@incollection{de2014anomalous,
+  title = {Anomalous User Comment Detection in Social News Websites},
+  author = {de-la-Pe{\~n}a-Sordo, Jorge and Pastor-L{\'o}pez, Iker and Ugarte-Pedrero, Xabier and Santos, Igor and Bringas, Pablo Garc{\'\i}a},
+  booktitle = {International Joint Conference SOCO’14-CISIS’14-ICEUTE’14},
+  publisher = {Springer International Publishing},
+  pages = {517--526},
+  year = {2014},
+  doi = {10.1007/978-3-319-07995-0_51},
+  pdf = {papers/2014/2014-Jorge-Anom.pdf}
+}
+
+@article{pastor2014vision,
+  title = {Visi{\'o}n artificial basada en aprendizaje autom{\'a}tico para la categorizaci{\'o}n de defectos superficiales en fundici{\'o}n.},
+  author = {Pastor-L{\'o}pez, Iker and de-la-Pe{\~n}a-Sordo, Jorge and Rojas, Sendoa and Santos, Igor and Bringas, Pablo G},
+  journal = {DYNA-Ingenier{\'\i}a e Industria},
+  publisher = {UK Zhende Publishing Limited Company},
+  volume = {89},
+  number = {3},
+  pages = {325--332},
+  year = {2014},
+  doi = {10.6036/6940},
+  pdf = {papers/2014/2014-Pastor-Vision.pdf}
+}
+
+@article{santos2013reversing,
+  title = {Reversing the Effects of Tokenisation Attacks Against Content-based Spam Filters},
+  author = {Santos, Igor and Laorden, Carlos and Sanz, Borja and Bringas, Pablo G.},
+  journal = {Int. J. Secur. Netw.},
+  publisher = {Inderscience Publishers},
+  volume = {8},
+  number = {2},
+  pages = {106--116},
+  year = {2013},
+  month = {aug},
+  address = {Inderscience Publishers, Geneva, SWITZERLAND},
+  doi = {10.1504/IJSN.2013.055944},
+  issn = {1747-8405},
+  pdf = {papers/2013/2013-Santos-Reversing.pdf},
+  issue_date = {August 2013},
+  numpages = {11},
+  acmid = {2517064}
+}
+
+@incollection{santos2012SpamFiltering,
+  title = {Spam Filtering through Anomaly Detection},
+  author = {Santos, Igor and Laorden, Carlos and Ugarte-Pedrero, Xabier and Sanz, Borja and Bringas, PabloG.},
+  booktitle = {E-Business and Telecommunications},
+  series = {Communications in Computer and Information Science},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {314},
+  pages = {203--216},
+  year = {2012},
+  doi = {10.1007/978-3-642-35755-8_15},
+  isbn = {978-3-642-35754-1},
+  keywords = {Computer security; Spam filtering; Anomaly detection; Text classification},
+  pdf = {papers/2013/2013-Santos-SpamBC.pdf},
+  editor = {Obaidat, MohammadS. and Sevillano, JoséL. and Filipe, Joaquim}
+}
+
+@article{nieves_2013_Enhancing.,
+  title = {Utilización de algoritmos de meta-clasificación para la mejora de los Modelos Predictivos de Control},
+  author = {J. Nieves and I. Santos and P.G. Bringas},
+  journal = {Revista Dyna},
+  publisher = {UK Zhende Publishing Limited Company},
+  volume = {88},
+  number = {3},
+  pages = {291--299},
+  year = {2012},
+  doi = {10.6036/5426},
+  pdf = {papers/2013/2013-Nieves-Meta.pdf}
+}
+
+@article{Santos201364,
+  title = {Opcode sequences as representation of executables for data-mining-based unknown malware detection},
+  author = {Igor Santos and Felix Brezo and Xabier Ugarte-Pedrero and Pablo G. Bringas},
+  journal = {Information Sciences},
+  publisher = {Elsevier BV},
+  volume = {231},
+  pages = {64--82},
+  year = {2013},
+  doi = {10.1016/j.ins.2011.08.020},
+  url = {http://www.sciencedirect.com/science/article/pii/S0020025511004336},
+  issn = {0020-0255},
+  pdf = {papers/2013/2013-Santos-Opcode.pdf}
+}
+
+@article{Laorden01082013,
+  title = {Collective classification for spam filtering},
+  author = {Laorden, Carlos and Sanz, Borja and Santos, Igor and Galán-García, Patxi and Bringas, Pablo G.},
+  journal = {Logic Journal of IGPL},
+  volume = {21},
+  number = {4},
+  pages = {540--548},
+  year = {2013},
+  doi = {10.1093/jigpal/jzs030},
+  url = {http://jigpal.oxfordjournals.org/content/21/4/540.abstract},
+  pdf = {papers/2013/2013-Laorden-Coll.pdf},
+  eprint = {http://jigpal.oxfordjournals.org/content/21/4/540.full.pdf+html}
+}
+
+@article{ugarte2013CollPacked,
+  title = {Collective Classification for Packed Executable Identification},
+  author = {X. Ugarte-Pedrero and I. Santos and C. Laorden and B. Sanz and P.G. Bringas},
+  journal = {International Journal of Computer Systems Science & Engineering},
+  publisher = {ACM},
+  pages = {23--30},
+  year = {2013},
+  doi = {10.1145/2030376.2030379},
+  pdf = {papers/2013/2013-Ugarte-Coll.pdf}
+}
+
+@article{santos2013NOA,
+  title = {NOA: An Information Retrieval Based Malware Detection System},
+  author = {I. Santos and X. Ugarte-Pedrero and F. Brezo and P.G. Bringas and J.M. Gómez-Hidalgo},
+  journal = {Proceedings of the 9th IEEE Consumer Communications and Networking Conference (CCNC)},
+  volume = {32},
+  number = {1},
+  pages = {145--174},
+  year = {2013},
+  url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.297.5860},
+  pdf = {papers/2013/2013-Santos-NOA.pdf}
+}
+
+@incollection{pastorlpez2014EnhancedImage,
+  title = {Enhanced Image Segmentation Using Quality Threshold Clustering for Surface Defect Categorisation in High Precision Automotive Castings},
+  author = {Pastor-López, Iker and Santos, Igor and de-la-Peña-Sordo, Jorge and García-Ferreira, Iván and Zabala, AsierG. and Bringas, PabloGarcía},
+  booktitle = {International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+  series = {Advances in Intelligent Systems and Computing},
+  publisher = {Springer International Publishing},
+  volume = {239},
+  pages = {191--200},
+  year = {2014},
+  doi = {10.1007/978-3-319-01854-6_20},
+  isbn = {978-3-319-01853-9},
+  keywords = {Computer Vision; Machine-Learning; Defect Categorisation; Foundry},
+  pdf = {papers/2013/2013-Pastor-QT.pdf},
+  editor = {Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio}
+}
+
+@incollection{galngarca2014SupervisedMachine,
+  title = {Supervised Machine Learning for the Detection of Troll Profiles in Twitter Social Network: Application to a Real Case of Cyberbullying},
+  author = {Galán-García, Patxi and Puerta, JoséGaviria and Gómez, CarlosLaorden and Santos, Igor and Bringas, PabloGarcía},
+  booktitle = {International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+  series = {Advances in Intelligent Systems and Computing},
+  publisher = {Springer International Publishing},
+  volume = {239},
+  pages = {419--428},
+  year = {2014},
+  doi = {10.1007/978-3-319-01854-6_43},
+  isbn = {978-3-319-01853-9},
+  keywords = {On-line Social Networks; Trolling; Information Retrieval; Identity Theft; Cyberbullying},
+  pdf = {papers/2013/2013-Patxi-Cyberbullying.pdf},
+  editor = {Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio}
+}
+
+@incollection{santosCISIS2013,
+  title = {Twitter Content-Based Spam Filtering},
+  author = {Santos, Igor and Miñambres-Marcos, Igor and Laorden, Carlos and Galán-García, Patxi and Santamaría-Ibirika, Aitor and Bringas, P.G.},
+  booktitle = {International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+  series = {Advances in Intelligent Systems and Computing},
+  publisher = {Springer International Publishing},
+  volume = {239},
+  pages = {449--458},
+  year = {2014},
+  doi = {10.1007/978-3-319-01854-6_46},
+  isbn = {978-3-319-01853-9},
+  keywords = {spam filtering; Twitter; social networks; machine learning; text classification},
+  pdf = {papers/2013/2013-Santos-TwitterSpam.pdf},
+  editor = {Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio}
+}
+
+@incollection{delapeasordo2014SocialNews,
+  title = {Social News Website Moderation through Semi-supervised Troll User Filtering},
+  author = {de-la-Peña-Sordo, Jorge and Santos, Igor and Pastor-López, Iker and Bringas, P.G.},
+  booktitle = {International Joint Conference SOCO’13-CISIS’13-ICEUTE’13},
+  series = {Advances in Intelligent Systems and Computing},
+  publisher = {Springer International Publishing},
+  volume = {239},
+  pages = {577--587},
+  year = {2014},
+  doi = {10.1007/978-3-319-01854-6_59},
+  isbn = {978-3-319-01853-9},
+  keywords = {User Profiling; Content Filtering; Web Mining; User Categorisation; Machine-learning},
+  pdf = {papers/2013/2013-Jorge-SemiSocialNews.pdf},
+  editor = {Herrero, Álvaro and Baruque, Bruno and Klett, Fanny and Abraham, Ajith and Snášel, Václav and Carvalho, André C.P.L.F. and Bringas, Pablo García and Zelinka, Ivan and Quintián, Héctor and Corchado, Emilio}
+}
+
+@inproceedings{sanz2013InstanceAndroid,
+  title = {Instance-based Anomaly Method for Android Malware Detection},
+  author = {B. Sanz and I. Santos and X. Ugarte-Pedrero and C. Laorden and J. Nieves and P.G. Bringas},
+  booktitle = {Proceedings of the 6$^{th}$ International Conference on Security and Cryptography (SECRYPT)},
+  publisher = {SCITEPRESS - Science and and Technology Publications},
+  pages = {387--394},
+  year = {2013},
+  doi = {10.5220/0004529603870394},
+  isbn = {978-989-8565-73-0},
+  pdf = {papers/2013/2013-Sanz-Instance.pdf}
+}
+
+@inproceedings{santos013ICIEA,
+  title = {Supervised Learning Classification for Dross Prediction in Ductile Iron Casting Production},
+  author = {Igor Santos and Javier Nieves and P.G. Bringas and Argoitz Zabala and Jon Sertucha},
+  booktitle = {Proceedings of 8th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+  publisher = {IEEE},
+  volume = {6861},
+  pages = {1749--1754},
+  year = {2013},
+  doi = {10.1109/iciea.2013.6566651},
+  pdf = {papers/2013/2013-Santos-Dross.pdf}
+}
+
+@inproceedings{nieves013ICIEA,
+  title = {Evolutionary Programming to Adjust the Process in High Precision Foundries},
+  author = {Javier Nieves and Igor Santos and P.G. Bringas},
+  booktitle = {Proceedings of 8th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+  publisher = {IEEE},
+  volume = {43},
+  pages = {912--917},
+  year = {2013},
+  doi = {10.1109/iciea.2013.6566497},
+  pdf = {papers/2013/2013-Nieves-Evol.pdf}
+}
+
+@inproceedings{pastor013ICIEA,
+  title = {Collective Classification for the Detection of Surface Defects in High Precision Foundry},
+  author = {Iker Pastor-L\'opez and Igor Santos and Jorge de-la-Pe\~na-Sordo and Mikel Salazar and Aitor Santamar\'ia-Ibirika and P.G. Bringas},
+  booktitle = {Proceedings of 8th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+  year = {2013},
+  pdf = {papers/2013/2013-Pastor-CollSurface.pdf}
+}
+
+@incollection{delapenasordo2013FilteringTrolling,
+  title = {Filtering Trolling Comments through Collective Classification},
+  author = {de-la-Pe\~na-Sordo, Jorge and Santos, Igor and Pastor-L\'opez, Iker and Bringas, P.G.},
+  booktitle = {Network and System Security},
+  series = {Lecture Notes in Computer Science},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {7873},
+  pages = {707--713},
+  year = {2013},
+  doi = {10.1007/978-3-642-38631-2_60},
+  isbn = {978-3-642-38630-5},
+  keywords = {information filtering; spam detection; web categorisation; content filtering; machine-learning},
+  pdf = {papers/2013/2013-Jorge-Filtering.pdf},
+  editor = {Lopez, Javier and Huang, Xinyi and Sandhu, Ravi}
+}
+
+@incollection{sanz2013MadsMalicious,
+  title = {MADS: Malicious Android Applications Detection through String Analysis},
+  author = {Sanz, Borja and Santos, Igor and Nieves, Javier and Laorden, Carlos and Alonso-Gonzalez, Iñigo and Bringas, PabloG.},
+  booktitle = {Network and System Security},
+  series = {Lecture Notes in Computer Science},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {7873},
+  pages = {178--191},
+  year = {2013},
+  doi = {10.1007/978-3-642-38631-2_14},
+  isbn = {978-3-642-38630-5},
+  keywords = {malware; android; machine learning; security},
+  pdf = {papers/2013/2013-Sanz-MADS.pdf},
+  editor = {Lopez, Javier and Huang, Xinyi and Sandhu, Ravi}
+}
+
+@inproceedings{santos2013CCNC,
+  title = {JURD: Joiner of Un-Readable Documents to reverse tokenization attacks to content-based spam filters},
+  author = {Santos, I. and Laorden, C. and Sanz, B. and Bringas, P.G.},
+  booktitle = {Consumer Communications and Networking Conference (CCNC), 2013 IEEE},
+  publisher = {IEEE},
+  volume = {14},
+  pages = {259--264},
+  year = {2013},
+  doi = {10.1109/CCNC.2013.6488455},
+  keywords = {Bayes methods;information filters;learning (artificial intelligence);pattern classification;security of data;unsolicited e-mail;Bayesian classifier;JURD;computer security;computer viruses;content-based spam filters;e-mail signatures;machine-learning algorithms;phishing;reverse tokenization attacks;spam words;statistical representations;worms},
+  pdf = {papers/2013/2013-Santos-JURD.pdf}
+}
+
+@article{santos2012AutomaticCategorisation,
+  title = {Automatic Categorisation of Comments in Social News Websites},
+  author = {Igor Santos and J. de-la-Pe&ntilde;a-Sordo and I. Pastor-L&oacute;pez and P. Galán-García and P.G. Bringas},
+  journal = {Expert Systems With Applications},
+  publisher = {Elsevier BV},
+  volume = {39},
+  number = {18},
+  pages = {13417--13425},
+  year = {2012},
+  doi = {10.1016/j.eswa.2012.05.061},
+  pdf = {papers/2012/2012-Santos-Automatic.pdf},
+  note = {doi:10.1016/j.eswa.2012.05.061}
+}
+
+@article{laorden2012word,
+  title = {Word Sense Disambiguation for Spam Filtering},
+  author = {Carlos Laorden and Igor Santos and Borja Sanz and Gonzalo Alvarez and Pablo Garc\'ia Bringas},
+  journal = {Electronic Commerce Research and Applications},
+  publisher = {Elsevier BV},
+  volume = {11},
+  number = {3},
+  pages = {290--298},
+  year = {2012},
+  doi = {10.1016/j.elerap.2011.11.004},
+  pdf = {papers/2012/2012-Laorden-WSD.pdf},
+  note = {doi:10.1016/j.elerap.2011.11.004}
+}
+
+@article{santos2012EnhancedTopic,
+  title = {Enhanced Topic-based Vector Space Model for Semantics-aware Spam Filtering},
+  author = {Igor Santos and Carlos Laorden and Borja Sanz and Pablo Garc\'ia Bringas},
+  journal = {Expert Systems With Applications},
+  publisher = {Elsevier BV},
+  volume = {39},
+  number = {1},
+  pages = {437--444},
+  year = {2012},
+  doi = {10.1016/j.eswa.2011.07.034},
+  pdf = {papers/2012/2012-Santos-eTVSM.pdf},
+  note = {doi:10.1016/j.eswa.2011.07.034}
+}
+
+@inproceedings{brezo2012CLEI,
+  title = {Clasificación supervisada de paquetes procedentes de una botnet HTTP},
+  author = {F\'elix Brezo and Jos\'e Gaviria-de-la-Puerta and Xabier Ugarte-Pedrero and Igor Santos and David Barroso and Pablo Garc\'ia Bringas},
+  booktitle = {Proceedings of the 23th Conferencia Latinoamericana en Informática (CLEI 2012)},
+  year = {2012},
+  pdf = {papers/2012/2012-Brezo-BotnetSupervised.pdf}
+}
+
+@inproceedings{Laorden2012Negobot,
+  title = {Negobot: A conversational agent based on game theory for the detection of paedophile behaviour},
+  author = {C. Laorden and P. Galán-García and I. Santos and B. Sanz and J.M. Gomez-Hidalgo and P.G. Bringas},
+  booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {189},
+  pages = {261--270},
+  year = {2012},
+  doi = {10.1007/978-3-642-33018-6_27},
+  isbn = {978-3-642-33017-9},
+  pdf = {papers/2012/2012-Laorden-Negobot.pdf}
+}
+
+@inproceedings{Sanz2012PUMA,
+  title = {PUMA: Permission Usage to detect Malware in Android},
+  author = {B. Sanz and I. Santos and C. Laorden and X. Ugarte-Pedrero P.G. Bringas and G. Alvarez},
+  booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {189},
+  pages = {289--298},
+  year = {2012},
+  doi = {10.1007/978-3-642-33018-6_30},
+  isbn = {978-3-642-33017-9},
+  pdf = {papers/2012/2012-Sanz-PUMA.pdf}
+}
+
+@inproceedings{santos2012AdultContent,
+  title = {Adult Content Filtering through Compression-based Text Classification},
+  author = {I. Santos and P. Galán-García and A. Santamaría-Ibirika and B. Alonso-Isla and I. Alabau-Sarasola and P.G. Bringas},
+  booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {189},
+  pages = {281--288},
+  year = {2012},
+  doi = {10.1007/978-3-642-33018-6_29},
+  isbn = {978-3-642-33017-9},
+  pdf = {papers/2012/2012-Santos-Adult.pdf}
+}
+
+@inproceedings{brezo12_botnet_C_C,
+  title = {C&C Techniques in Botnet Development},
+  author = {Félix Brezo and José Gaviria de la Puerta and Igor Santos and David Barroso and P.G. Bringas},
+  booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {189},
+  pages = {97--108},
+  year = {2012},
+  doi = {10.1007/978-3-642-33018-6_10},
+  isbn = {978-3-642-33017-9},
+  pdf = {papers/2012/2012-Brezo-BotnetSurvey.pdf}
+}
+
+@inproceedings{santos2012OpemStatic,
+  title = {OPEM: A Static-Dynamic Approach for Machine-learning-based Malware Detection},
+  author = {Igor Santos and Jaime Devesa and Félix Brezo and Javier Nieves and P.G. Bringas},
+  booktitle = {International Joint Conference CISIS’12-ICEUTE´12-SOCO´12 Special Sessions. Herrero, Á.; Snášel, V.; Abraham, A.; Zelinka, I.; Baruque, B.; Quintián, H.; Calvo, J.L.; Sedano, J.; Corchado, E. (Eds.). Advances in Intelligent Systems and Computing},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {189},
+  pages = {271--280},
+  year = {2012},
+  doi = {10.1007/978-3-642-33018-6_28},
+  isbn = {978-3-642-33017-9},
+  pdf = {papers/2012/2012-Santos-OPEM.pdf}
+}
+
+@inproceedings{santos2012ICIEA,
+  title = {Collective Prediction of Ultimate Tensile Strength in High-precision Foundries},
+  author = {Igor Santos and Javier Nieves and P.G. Bringas},
+  booktitle = {Proceedings of 7th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+  publisher = {IEEE},
+  pages = {1369--1374},
+  year = {2012},
+  doi = {10.1109/iciea.2012.6360936},
+  pdf = {papers/2012/2012-Santos-CollUTS.pdf}
+}
+
+@inproceedings{pastorlopez2012ICIEA,
+  title = {Machine-learning-based Surface Defect Detection and Categorisation in High-Precision Foundry},
+  author = {Iker Pastor-L\'opez and Igor Santos and Aitor Santamar\'ia-Ibirika and Mikel Salazar and Jorge de-la-Pe\~na-Sordo and P.G. Bringas},
+  booktitle = {Proceedings of 7th IEEE Conference in Industrial Electronics and Applications (ICIEA)},
+  publisher = {IEEE},
+  pages = {1359--1364},
+  year = {2012},
+  doi = {10.1109/iciea.2012.6360934},
+  pdf = {papers/2012/2012-Pastor-SurfaceDefect.pdf}
+}
+
+@inproceedings{Laorden2012Study,
+  title = {On the Study of Anomaly-based Spam Filtering Using Spam as Representation of Normality},
+  author = {C. Laorden and X. Ugarte-Pedrero and I. Santos and B. Sanz and J. Nieves and P.G. Bringas},
+  booktitle = {Proceedings of the 3$^{th}$ Consumer Communications and Network Conference (CCNC) Research Student Workshop},
+  publisher = {IEEE},
+  volume = {14},
+  pages = {693--695},
+  year = {2012},
+  doi = {10.1109/ccnc.2012.6181147},
+  pdf = {papers/2012/2012-Laorden-SpamHam.pdf}
+}
+
+@inproceedings{Sanz2012androidappclass,
+  title = {On the Automatic Categorisation of Android Applications},
+  author = {B. Sanz and I. Santos and C. Laorden and X. Ugarte-Pedrero and P.G. Bringas},
+  booktitle = {Proceedings of the 9$^{th}$ IEEE Consumer Communications and Networking Conference (CCNC2012)},
+  publisher = {IEEE},
+  pages = {149--153},
+  year = {2012},
+  doi = {10.1109/ccnc.2012.6181075},
+  pdf = {papers/2012/2012-Sanz-AutomaticAndroid.pdf},
+  note = {in press}
+}
+
+@inproceedings{ugarte2012_Countering,
+  title = {Countering entropy measure attacks on packed software detection},
+  author = {Xabier Ugarte-Pedrero and Igor Santos and Borja Sanz and Carlos Laorden and Pablo Garcia Bringas},
+  booktitle = {CCNC},
+  publisher = {IEEE},
+  pages = {164--168},
+  year = {2012},
+  doi = {10.1109/ccnc.2012.6181079},
+  pdf = {papers/2012/2012-Ugarte-CounteringEntropy.pdf},
+  ee = {http://dx.doi.org/10.1109/CCNC.2012.6181079},
+  crossref = {DBLP:conf/ccnc/2012},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{santosIETIFS,
+  title = {Using Opcode Sequences in Single-Class Learning to Detect Unknown Malware},
+  author = {Igor Santos and Felix Brezo and Borja Sanz and Carlos Laorden and Pablo Garc\'ia Bringas},
+  journal = {IET Information Security},
+  publisher = {Institution of Engineering and Technology (IET)},
+  volume = {5},
+  number = {4},
+  pages = {220--227},
+  year = {2011},
+  doi = {10.1049/iet-ifs.2010.0180},
+  pdf = {papers/2011/2011-Santos-SingleClassOpcodes.pdf},
+  note = {in press}
+}
+
+@article{nieves2011REVMET,
+  title = {Model Predictive Control on High Precision Foundries, a New Approach for the Prediction Phase},
+  author = {Javier Nieves and Igor Santos and Pablo Garc\'ia Bringas},
+  journal = {Revista Metalurgia},
+  volume = {47},
+  number = {4},
+  pages = {197--204},
+  year = {2011},
+  pdf = {papers/2011/2011-Nieves-MPC.pdf}
+}
+
+@inproceedings{ugarte2011inscrypt,
+  title = {Semi-supervised Learning for Packed Executable Detection},
+  author = {X. Ugarte-Pedrero and I. Santos and P.G. Bringas},
+  booktitle = {In Proceedings of the 7th International Conference on Information Security and Cryptology (INSCRYPT)},
+  publisher = {IEEE},
+  volume = {5},
+  pages = {342--346},
+  year = {2011},
+  doi = {10.1109/icnss.2011.6060027},
+  pdf = {papers/2011/2011-Ugarte-Boosting.pdf},
+  note = {in press}
+}
+
+@inproceedings{Laorden2011enhancing,
+  title = {Enhancing Scalability in Anomaly-based Email Spam Filtering},
+  author = {Carlos Laorden and Xabier Ugarte-Pedrero and Igor Santos and Borja Sanz and Pablo G. Bringas},
+  booktitle = {Proceedings of the 8$^{th}$ Annual Collaboration, Electronic messaging, Anti-Abuse and Spam Conference (CEAS)},
+  publisher = {ACM},
+  pages = {13--22},
+  year = {2011},
+  doi = {10.1145/2030376.2030378},
+  pdf = {papers/2011/2011-Laorden-Enhancing.pdf}
+}
+
+@inproceedings{santos2011Coll,
+  title = {Collective Classification for Packed Executable Identification},
+  author = {Igor Santos and Xabier Ugarte-Pedrero and Borja Sanz and Carlos Laorden and Pablo G. Bringas},
+  booktitle = {Proceedings of the 8$^{th}$ Annual Collaboration, Electronic messaging, Anti-Abuse and Spam Conference (CEAS)},
+  publisher = {ACM},
+  pages = {23--30},
+  year = {2011},
+  doi = {10.1145/2030376.2030379},
+  pdf = {papers/2011/2011-Santos-CollPacked.pdf}
+}
+
+@inproceedings{ugarte2011semipacked,
+  title = {Semi-supervised Learning for Packed Executable Detection},
+  author = {X. Ugarte-Pedrero and I. Santos and P.G. Bringas and M. Gastesi and J.M. Esparza},
+  booktitle = {In Proceedings of the 5th International Conference on Network and System Security (NSS)},
+  publisher = {IEEE},
+  volume = {5},
+  pages = {342--346},
+  year = {2011},
+  doi = {10.1109/icnss.2011.6060027},
+  pdf = {papers/2011/2011-Ugarte-SemiPacked.pdf}
+}
+
+@inproceedings{brezo11b,
+  title = {Challenges and Limitations in Current Botnet Detection},
+  author = {Felix Brezo and Igor Santos and Pablo G. Bringas and José L. del Val},
+  booktitle = {In Proceedigns of the 6$^{th}$ International Workshop on Flexible Database and Information System Technology (FlexDBIST'11)},
+  publisher = {IEEE},
+  volume = {737},
+  pages = {95--101},
+  year = {2011},
+  doi = {10.1109/dexa.2011.19},
+  pdf = {papers/2011/2011-Brezo-ChallengesBotnet.pdf}
+}
+
+@incollection{santos2011anomaly,
+  title = {Anomaly Detection for the Prediction of Ultimate Tensile Strength in High-Precision Foundries},
+  author = {Igor Santos and Javier Nieves and Xabier Ugarte-Pedrero and Pablo G. Bringas},
+  booktitle = {Database and Expert Systems Applications. Part II},
+  series = {Lecture Notes in Computer Science},
+  publisher = {Springer Berlin / Heidelberg},
+  volume = {6861},
+  pages = {519--526},
+  year = {2011},
+  pdf = {papers/2011/2011-SantosAnomUTS.pdf},
+  editor = {A. Hameurlain et al.}
+}
+
+@inproceedings{nieves2011a,
+  title = {Anomaly Detection for High Precision Foundries},
+  author = {Javier Nieves and Igor Santos and Xabier Ugarte-Pedrero and Pablo G. Bringas},
+  booktitle = {Proceedings of the 9$^{th}$ IEEE International Conference on Industrial Informatics (INDIN)},
+  publisher = {IEEE},
+  pages = {169--174},
+  year = {2011},
+  doi = {10.1109/indin.2011.6034857},
+  pdf = {papers/2011/2011-NievesAnomFoundry.pdf},
+  note = {in press}
+}
+
+@inproceedings{santos2011CollectiveClassification,
+  title = {Collective Classification for Unknown Malware Detection},
+  author = {Igor Santos and Carlos Laorden and Pablo G. Bringas},
+  booktitle = {Proceedings of the 6$^{th}$ International Conference on Security and Cryptography (SECRYPT)},
+  publisher = {SciTePress - Science and and Technology Publications},
+  pages = {251--256},
+  year = {2011},
+  doi = {10.5220/0003452802510256},
+  pdf = {papers/2011/2011-SantosCollMalwareByteNgram.pdf}
+}
+
+@inproceedings{santos2011AnomalyBased,
+  title = {Anomaly-based Spam Filtering},
+  author = {Igor Santos and Carlos Laorden and Xabier Ugarte-Pedrero and Borja Sanz and Pablo G. Bringas},
+  booktitle = {Proceedings of the 6$^{th}$ International Conference on Security and Cryptography (SECRYPT)},
+  publisher = {SciTePress - Science and and Technology Publications},
+  pages = {5--14},
+  year = {2011},
+  doi = {10.5220/0003444700050014},
+  pdf = {papers/2011/2011-SantosAnomalySpam.pdf}
+}
+
+@inproceedings{Ugarte-Pedrero2011a,
+  title = {Structural Feature based Anomaly Detection for Packed Executable Identification},
+  author = {Xabier Ugarte-Pedrero and Igor Santos and Pablo G. Bringas},
+  booktitle = {Proceedings of the 4$^{th}$ International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {50--57},
+  year = {2011},
+  doi = {10.1007/978-3-642-21323-6_29},
+  pdf = {papers/2011/2011-UgartePackerDetector.pdf}
+}
+
+@inproceedings{Laorden2011a,
+  title = {Collective Classification for Spam Filtering},
+  author = {Carlos Laorden and Borja Sanz and Igor Santos and Patxi Gal\'an-Garc\'ia and Pablo G. Bringas},
+  booktitle = {Proceedings of the 4$^{th}$ International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {1--8},
+  year = {2011},
+  doi = {10.1007/978-3-642-21323-6_1},
+  pdf = {papers/2011/2011-LaordenCollSpam.pdf}
+}
+
+@inproceedings{Santos11b,
+  title = {Opcode-sequence-based Semi-supervised Unknown Malware Detection.},
+  author = {Igor Santos and Borja Sanz and Carlos Laorden and Felix Brezo and Pablo G. Bringas},
+  booktitle = {Proceedings of the 4$^{th}$ International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {50--57},
+  year = {2011},
+  doi = {10.1007/978-3-642-21323-6_7},
+  pdf = {papers/2011/2011-Santos-OpcodeSemi.pdf}
+}
+
+@inproceedings{Santos11a,
+  title = {Semi-supervised Learning for Unknown Malware Detection.},
+  author = {Igor Santos and Javier Nieves and Pablo G. Bringas},
+  booktitle = {Proceedings of the 4$^{th}$ International Symposium on Distributed Computing and Artificial Intelligence (DCAI). 9th International Conference on Practical Applications of Agents and Multi-Agent Systems (PAAMS)},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {415--422},
+  year = {2011},
+  doi = {10.1007/978-3-642-19934-9_53},
+  pdf = {papers/2011/2011-Santos-SemiByteNgramas.pdf}
+}
+
+@incollection{bringas2010,
+  title = {Bayesian Networks for Network Intrusion Detection},
+  author = {Pablo G. Bringas and I. Santos},
+  booktitle = {Bayesian Network},
+  publisher = {Sciyo},
+  pages = {229--244},
+  year = {2010},
+  doi = {10.5772/10069},
+  pdf = {papers/2010/2010-GBringas-BayesianNetworksIntrusion.pdf},
+  editor = {Ahmed Rebai}
+}
+
+@incollection{santosStructural2010,
+  title = {Machine-Learning-Based Defect Prediction in High—Precision Foundry Production},
+  author = {I.Santos and J. Nieves and P.G. Bringas and Y.K. Penya},
+  booktitle = {Structural Steel and Castings: Shapes and Standards, Properties and Applications},
+  publisher = {Nova Publishers},
+  pages = {259--276},
+  year = {2010},
+  pdf = {papers/2010/2010-Santos-MLFoundry.pdf},
+  editor = {Lena M. Becker}
+}
+
+@inproceedings{lopezdeuralde2010AutomatedImage,
+  title = {{Automated Image Analysis and Artificial Intelligence applied to microscopic iamges: a new methodology for the morphological characterization of nano-particles}},
+  author = {L\'opez-de-Uralde, J. and Guraya, T and Okariz, and Gómez E. and Zubillaga, A. and Santos, I.},
+  booktitle = {Proceedings of Modelling of Elastomeric Materials and Products},
+  year = {2010},
+  pdf = {papers/2010/2010-Juan-Automated.pdf}
+}
+
+@inproceedings{santos2010enhancing,
+  title = {{Enhancing fault prediction on automatic foundry processes}},
+  author = {Santos, I. and Nieves, J. and Bringas, P.G.},
+  booktitle = {World Automation Congress (WAC), 2010},
+  pages = {1--6},
+  year = {2010},
+  url = {http://ieeexplore.ieee.org/iel5/5626921/5665275/05665435.pdf},
+  issn = {2154-4824},
+  pdf = {papers/2010/2010-Santos-EnhancingFoundry.pdf},
+  organization = {IEEE}
+}
+
+@inproceedings{nieves2010overcoming,
+  title = {{Overcoming data gathering errors for the prediction of mechanical properties on high precision foundries}},
+  author = {Nieves, J. and Santos, I. and Bringas, P.G.},
+  booktitle = {World Automation Congress (WAC), 2010},
+  pages = {1--6},
+  year = {2010},
+  url = {http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000005665718},
+  issn = {2154-4824},
+  pdf = {papers/2010/2010-Nieves-OvercomingFoundry.pdf},
+  organization = {IEEE}
+}
+
+@incollection{lpezdeuralde2010AutomaticMorphological,
+  title = {Automatic Morphological Categorisation of Carbon Black Nano-aggregates},
+  author = {López-de-Uralde, Juan and Ruiz, Iraide and Santos, Igor and Zubillaga, Agustín and Bringas, Pablo and Okariz, Ana and Guraya, Teresa},
+  booktitle = {Database and Expert Systems Applications},
+  series = {Lecture Notes in Computer Science},
+  publisher = {Springer Berlin / Heidelberg},
+  volume = {6262},
+  pages = {185--193},
+  year = {2010},
+  doi = {10.1007/978-3-642-15251-1_15},
+  pdf = {papers/2010/2010-Juan-Automatic.pdf},
+  editor = {Bringas, Pablo and Hameurlain, Abdelkader and Quirchmayr, Gerald},
+  note = {10.1007/978-3-642-15251-1\_15}
+}
+
+@inproceedings{Nieves10,
+  title = {Enhanced Foundry Production Control},
+  author = {Javier Nieves and Igor Santos and Yoseba K. Penya and Felix Brezo and Pablo G. Bringas},
+  booktitle = {Proceedings of the 21st International Conference on Database and Expert Systems Applications (DEXA)},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {213--220},
+  year = {2010},
+  doi = {10.1007/978-3-642-15364-8_15},
+  pdf = {papers/2010/2010-Nieves-EnhancedFoundry.pdf}
+}
+
+@inproceedings{gomez2010c,
+  title = {Data Leak Prevention through Named Entity Recognition.},
+  author = {J. M. Gómez Hidalgo and J. M. Martín Abreu and J. Nieves and I. Santos and F. Brezo and P G. Bringas},
+  booktitle = {In Proceedings of the 1st International Workshop on Privacy Aspects of Social Web and Cloud Computing (PASWeb). International Conference on Privacy, Security, Risk and Trust (PASSAT2010)},
+  publisher = {IEEE},
+  pages = {1129--1134},
+  year = {2010},
+  doi = {10.1109/socialcom.2010.167},
+  pdf = {papers/2010/2010-JM-DataLeak.pdf}
+}
+
+@inproceedings{salazar2010a,
+  title = {Fault-tolerant Defect Predicion in High-precision Foundry.},
+  author = {Mikel Salazar and David Gallego and Yoseba K. Penya and Igor Santos and Pablo G. Bringas},
+  booktitle = {In Proceedings of the 8$^{th}$ IEEE International Conference on Industrial Informatics (INDIN'10)},
+  publisher = {IEEE},
+  pages = {373--378},
+  year = {2010},
+  doi = {10.1109/indin.2010.5549392},
+  pdf = {papers/2010/2010-Salazar-Fault.pdf}
+}
+
+@inproceedings{devesa2010AutomaticBehaviour,
+  title = {{Automatic Behaviour-based Analysis and Classification System for Malware Detection}},
+  author = {J. Devesa and I. Santos and X. Cantero and Y. K. Penya and P. G. Bringas},
+  booktitle = {Proceedings of the 12$^{th}$ International Conference on Enterprise Information Systems (ICEIS)},
+  publisher = {SciTePress - Science and and Technology Publications},
+  pages = {395--399},
+  year = {2010},
+  doi = {10.5220/0002895203950399},
+  pdf = {papers/2010/2010-Devesa-AutomaticMalware.pdf},
+  note = {395--399}
+}
+
+@incollection{Santos10a,
+  title = {Idea: Opcode-Sequence-Based Malware Detection},
+  author = {Santos, Igor and Brezo, Felix and Nieves, Javier and Penya, Yoseba and Sanz, Borja and Laorden, Carlos and Bringas, Pablo},
+  booktitle = {Engineering Secure Software and Systems},
+  series = {LNCS},
+  publisher = {Springer Berlin Heidelberg},
+  volume = {5965},
+  pages = {35--43},
+  year = {2010},
+  doi = {10.1007/978-3-642-11747-3_3},
+  pdf = {papers/2010/2010-Santos-Opcode.pdf},
+  note = {10.1007/978-3-642-11747-3\_3}
+}
+
+@inproceedings{Santos09,
+  title = {Machine-learning-based Mechanical Properties Prediction in Foundry Production},
+  author = {Igor Santos and Javier Nieves and Yoseba K. Penya and Pablo G. Bringas},
+  booktitle = {In Proceedings of ICROS-SICE International Joint Conference (ICCAS-SICE)},
+  pages = {4536--4541},
+  year = {2009},
+  url = {http://paginaspersonales.deusto.es/ypenya/publi/penya_ICCAS-SICE09_Machine-learning-based%20Mechanical%20Properties%20Prediction%20in%20Foundry%20Production.pdf},
+  pdf = {papers/2009/2009-Santos-MLFoundry.pdf}
+}
+
+@inproceedings{Nieves09,
+  title = {Mechanical Properties Prediction in High-Precision Foundry Production.},
+  author = {Javier Nieves and Igor Santos and Yoseba K. Penya and Sendoa Rojas and Mikel Salazar and Pablo G. Bringas},
+  booktitle = {Proceedings of the 7$^{th}$ IEEE International Conference on Industrial Informatics (INDIN 09)},
+  publisher = {IEEE},
+  volume = {35},
+  pages = {31--36},
+  year = {2009},
+  doi = {10.1109/indin.2009.5195774},
+  pdf = {papers/2009/2009-Nieves-Mechanical.pdf}
+}
+
+@inproceedings{Santos09b,
+  title = {Optimising Machine-learning-based Fault Prediction in Foundry Production.},
+  author = {Igor Santos and Javier Nieves and Yoseba K. Penya and Pablo G. Bringas},
+  booktitle = {Proceedings of the 2$^{nd}$ International Symposium on Distributed Computing and Artificial Intelligence (DCAI),. S. Omatu et al. (Eds.): IWANN 2009, Part II, LNCS 5518, Springer-Verlag Berlin Heidelberg},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {553--560},
+  year = {2009},
+  doi = {10.1007/978-3-642-02481-8_80},
+  pdf = {papers/2009/2009-Santos-Optimising.pdf}
+}
+
+@inproceedings{santos2009NGrams,
+  title = {{N-Grams-based file signatures for malware detection}},
+  author = {Santos, I. and Penya, Y.K. and Devesa, J. and Bringas, P.G.},
+  booktitle = {Proceedings of the 11$^{th}$ International Conference on Enterprise Information Systems (ICEIS), Volume AIDSS},
+  publisher = {SCITEPRESS - Science and Technology Publications},
+  pages = {317--320},
+  year = {2009},
+  doi = {10.5220/0001863603170320},
+  pdf = {papers/2009/2009-Santos-Ngrams.pdf}
+}
+
+@article{laorden2014study,
+  title = {Study on the effectiveness of anomaly detection for spam filtering},
+  author = {Laorden, Carlos and Ugarte-Pedrero, Xabier and Santos, Igor and Sanz, Borja and Nieves, Javier and Bringas, Pablo G.},
+  journal = {Information Sciences},
+  publisher = {Elsevier BV},
+  volume = {277},
+  pages = {421--444},
+  year = {2014},
+  doi = {10.1016/j.ins.2014.02.114}
+}
+
+@inproceedings{garcia2014survey,
+  title = {A Survey on Static Analysis and Model Checking},
+  author = {Garcia-Ferreira, Ivan and Laorden, Carlos and Santos, Igor and Bringas, Pablo G.},
+  booktitle = {Proceedings of the 7th International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer International Publishing},
+  pages = {443--452},
+  year = {2014},
+  address = {Bilbao, Spain},
+  doi = {10.1007/978-3-319-07995-0_44},
+  pdf = {papers/2014/2014-Garcia-MC.pdf}
+}
+
+@article{sanz2013mama,
+  title = {MAMA: Manifest Analysis for Malware Detection in Android},
+  author = {Sanz, Borja and Santos, Igor and Laorden, Carlos and Ugarte-Pedrero, Xabier and Nieves, Javier and Bringas, Pablo G. and Alvarez Maranon, Gonzalo},
+  journal = {Cybernetics and Systems},
+  volume = {44},
+  number = {6-7},
+  pages = {469--488},
+  year = {2013},
+  doi = {10.1080/01969722.2013.803889},
+  url = {http://www.tandfonline.com/doi/abs/10.1080/01969722.2013.803889},
+  pdf = {papers/2013/2013-Sanz-MAMA.pdf}
+}
+
+@inproceedings{sanz2013anomalystrings,
+  title = {Anomaly Detection using String Analysis for Android Malware Detection},
+  author = {Sanz, Borja and Santos, Igor and Ugarte-Pedrero, Xabier and Laorden, Carlos and Nieves, Javier and Bringas, Pablo G.},
+  booktitle = {Proceedings of the 6th International Conference on Computational Intelligence in Security for Information Systems (CISIS)},
+  publisher = {Springer International Publishing},
+  pages = {469--478},
+  year = {2013},
+  address = {Salamanca, Spain},
+  doi = {10.1007/978-3-319-01854-6_48},
+  pdf = {papers/2013/2013-Sanz-Android-Anomaly-Strings.pdf}
+}
+
+@inproceedings{nieves2012combination,
+  title = {Combination of Machine-Learning Algorithms for Fault Prediction in High-Precision Foundries},
+  author = {Nieves, Javier and Santos, Igor and Bringas, Pablo G.},
+  booktitle = {Proceedings of the 23rd International Conference on Database and Expert Systems Applications (DEXA)},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {56--70},
+  year = {2012},
+  address = {Vienna, Austria},
+  doi = {10.1007/978-3-642-32597-7_6},
+  pdf = {papers/2012/2012-Nieves-Combination.pdf}
+}
+
+@inproceedings{santos2012collmicro,
+  title = {Collective Classification for the Prediction of Microshrinkages in Foundry Production},
+  author = {Santos, Igor and Nieves, Javier and Laorden, Carlos and Sanz, Borja and Bringas, Pablo G.},
+  booktitle = {Proceedings of the World Automation Congress (WAC)},
+  pages = {1--6},
+  year = {2012},
+  address = {Puerto Vallarta, Mexico},
+  url = {http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000006320905}
+}
+
+@inproceedings{santos2010towards,
+  title = {Towards Noise and Error Reduction on Foundry Data Gathering Processes},
+  author = {Santos, Igor and Nieves, Javier and Penya, Yoseba K. and Bringas, Pablo G.},
+  booktitle = {Proceedings of the IEEE International Symposium on Industrial Electronics (ISIE)},
+  publisher = {IEEE},
+  pages = {1765--1770},
+  year = {2010},
+  address = {Bari, Italy},
+  doi = {10.1109/isie.2010.5637901}
+}
+
+@inproceedings{gomez2010content,
+  title = {Content Security and Privacy Preservation in Social Networks through Text Mining},
+  author = {Gomez-Hidalgo, Jose M. and Martin-Abreu, Jose M. and Bringas, Pablo G. and Santos, Igor},
+  booktitle = {Proceedings of the 2nd Workshop on Interoperable Social Multimedia Applications (WISMA)},
+  year = {2010},
+  address = {Barcelona, Spain}
+}
