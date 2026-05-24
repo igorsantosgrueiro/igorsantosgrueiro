@@ -439,6 +439,35 @@ h3 {
   cursor: pointer;
 }
 
+.publication-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.6rem;
+  min-height: 1.65rem;
+  padding: 0 0.35rem;
+  border: 1px solid var(--line);
+  background: var(--input);
+  line-height: 1;
+  text-decoration: none;
+}
+
+.publication-action:hover,
+.publication-action:focus-visible,
+details[open] > .publication-action {
+  border-color: var(--accent);
+  color: var(--accent-2);
+}
+
+.publication-actions summary.publication-action {
+  width: max-content;
+  list-style: none;
+}
+
+.publication-actions summary.publication-action::-webkit-details-marker {
+  display: none;
+}
+
 .publication-actions details {
   width: 100%;
   min-width: 0;

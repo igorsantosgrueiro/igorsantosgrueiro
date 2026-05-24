@@ -6,6 +6,15 @@
   var themeToggle = document.querySelector("[data-theme-toggle]");
   var siteNav = document.querySelector("[data-nav]");
   var menuToggle = document.querySelector("[data-menu-toggle]");
+  var ACTION_LABELS = {
+    pdf: { text: "pdf", label: "paper" },
+    slides: { text: "slides", label: "slides" },
+    talk: { text: "talk", label: "talk" },
+    code: { text: "code", label: "code" },
+    data: { text: "data", label: "data" },
+    doi: { text: "doi", label: "doi" },
+    url: { text: "url", label: "url" }
+  };
 
   function preferredTheme() {
     var saved = window.localStorage.getItem(STORAGE_KEY);
@@ -217,18 +226,20 @@
 
     var actions = document.createElement("div");
     actions.className = "publication-actions";
-    actions.appendChild(textSpan(paper.type));
-    addLink(actions, "pdf", paper.fields.pdf);
-    addLink(actions, "slides", paper.fields.slides);
-    addLink(actions, "talk", paper.fields.talk);
-    addLink(actions, "code", paper.fields.code);
-    addLink(actions, "data", paper.fields.data);
-    addLink(actions, "doi", paper.fields.doi ? "https://doi.org/" + paper.fields.doi : "");
-    addLink(actions, "url", paper.fields.url);
+    addActionLink(actions, "pdf", paper.fields.pdf);
+    addActionLink(actions, "slides", paper.fields.slides);
+    addActionLink(actions, "talk", paper.fields.talk);
+    addActionLink(actions, "code", paper.fields.code);
+    addActionLink(actions, "data", paper.fields.data);
+    addActionLink(actions, "doi", paper.fields.doi ? "https://doi.org/" + paper.fields.doi : "");
+    addActionLink(actions, "url", paper.fields.url);
 
     var details = document.createElement("details");
     var summary = document.createElement("summary");
-    summary.textContent = "bibtex";
+    summary.className = "publication-action";
+    summary.textContent = "bib";
+    summary.title = "bibtex";
+    summary.setAttribute("aria-label", "bibtex");
     var pre = document.createElement("pre");
     pre.textContent = paper.raw;
     details.appendChild(summary);
@@ -237,6 +248,22 @@
     item.appendChild(actions);
 
     return item;
+  }
+
+  function addActionLink(parent, label, href) {
+    if (!href) {
+      return;
+    }
+    var action = ACTION_LABELS[label] || { text: label, label: label };
+    var link = document.createElement("a");
+    link.className = "publication-action";
+    link.href = href;
+    link.textContent = action.text;
+    link.title = action.label;
+    link.setAttribute("aria-label", action.label);
+    link.target = "_blank";
+    link.rel = "noopener";
+    parent.appendChild(link);
   }
 
   function addLink(parent, label, href) {
