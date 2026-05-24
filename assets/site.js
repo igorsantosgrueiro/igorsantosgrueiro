@@ -322,21 +322,21 @@
         rivalReply: "I... object to the methodology."
       },
       {
-        defensePrompt: "Your BibTeX has undefined references in production.",
+        defensePrompt: "Your related work is so stale even DBLP sent a correction.",
         defenseReplies: [
-          "The bibliography compiles on my ship.",
-          "Then I will cite the bug and patch the reviewer.",
-          "I prefer my citations with undefined behavior."
+          "Good. The threat model includes bibliographic drift.",
+          "Then I will refresh it before the rebuttal tide comes in.",
+          "At least my citations have a reproducible artifact."
         ],
-        defenseAnswer: 1,
+        defenseAnswer: 0,
         attackPrompt: "Choose an opening insult.",
         attacks: [
-          "Your bibliography has fewer links than a captive portal.",
-          "Your bibliography has many related works.",
-          "Your bibliography has a pleasant serif font."
+          "Your related work is a treasure map with no treasure.",
+          "Your related work is many works related together.",
+          "Your related work has a respectable page count."
         ],
         attackAnswer: 0,
-        rivalReply: "My camera-ready version will fix that."
+        rivalReply: "I blame the proceedings metadata."
       },
       {
         defensePrompt: "You call that reverse engineering? The obfuscator left better notes.",
@@ -722,8 +722,8 @@
     var typeTimer = null;
     var advanceTimer = null;
     var usedInsults = {};
-    var insultStorageKey = "isg-adventure-insults";
-    var comebackStorageKey = "isg-adventure-comebacks";
+    var insultStorageKey = "isg-adventure-insults-v2";
+    var comebackStorageKey = "isg-adventure-comebacks-v2";
     var startingInsults = [
       { text: "Your sandbox leaks more secrets than a pirate with a podcast.", weak: false },
       { text: "Your paper has more acronyms than actual contributions.", weak: false },
