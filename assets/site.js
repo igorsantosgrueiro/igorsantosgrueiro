@@ -4,6 +4,8 @@
   var STORAGE_KEY = "santosgrueiro-theme";
   var root = document.documentElement;
   var themeToggle = document.querySelector("[data-theme-toggle]");
+  var siteNav = document.querySelector("[data-nav]");
+  var menuToggle = document.querySelector("[data-menu-toggle]");
 
   function preferredTheme() {
     var saved = window.localStorage.getItem(STORAGE_KEY);
@@ -29,8 +31,39 @@
     });
   }
 
+  if (siteNav && menuToggle) {
+    siteNav.setAttribute("data-menu-ready", "true");
+    setMenuOpen(false);
+
+    menuToggle.addEventListener("click", function () {
+      setMenuOpen(siteNav.getAttribute("data-menu-open") !== "true");
+    });
+
+    siteNav.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuToggle.focus();
+      }
+    });
+
+    Array.prototype.forEach.call(siteNav.querySelectorAll("a"), function (link) {
+      link.addEventListener("click", function () {
+        setMenuOpen(false);
+      });
+    });
+  }
+
   if (document.querySelector("[data-publications]")) {
     loadPublications();
+  }
+
+  function setMenuOpen(open) {
+    if (!siteNav || !menuToggle) {
+      return;
+    }
+
+    siteNav.setAttribute("data-menu-open", open ? "true" : "false");
+    menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
   }
 
   function loadPublications() {
