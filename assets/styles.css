@@ -452,7 +452,9 @@ pre {
   border: 1px solid var(--line);
   background: var(--input);
   color: var(--text);
+  font-family: inherit;
   font-size: 0.9rem;
+  line-height: inherit;
 }
 
 .empty-state,
