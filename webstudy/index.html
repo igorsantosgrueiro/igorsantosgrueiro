@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modern Web Privacy Study</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body class="field-page">
+    <main class="field-shell">
+      <section class="field-card">
+        <p class="eyebrow">Academic Research Study</p>
+        <h1>Modern Web Privacy Study</h1>
+
+        <div class="notice">
+          <p>
+            This page is part of an academic experiment measuring privacy
+            properties of modern web platform surfaces.
+          </p>
+          <p>
+            It does not collect page contents, browsing history, account
+            identifiers, keystrokes, contacts, local files, or real website
+            activity. The collected data is used only by the research team and
+            is not shared.
+          </p>
+          <p>
+            By pressing the button below, you agree to run the study in this
+            browser and submit the generated study result to the research team.
+          </p>
+        </div>
+
+        <button id="run-button" class="primary-action" type="button">
+          I agree, start analysis
+        </button>
+
+        <section class="public-status" aria-live="polite">
+          <div class="status-line">
+            <span>Status</span>
+            <strong id="status-text">Ready</strong>
+          </div>
+          <div class="status-line">
+            <span>Progress</span>
+            <strong id="progress-text">0%</strong>
+          </div>
+        </section>
+
+        <section class="progress-shell" aria-label="Analysis progress">
+          <div id="progress-bar" class="progress-bar"></div>
+        </section>
+
+        <p id="upload-output" class="final-message">Ready to begin.</p>
+      </section>
+
+      <canvas id="victim-canvas" class="hidden-canvas" width="480" height="320" aria-hidden="true"></canvas>
+    </main>
+
+    <script src="./field-benchmark.bundle.js"></script>
+  </body>
+</html>
