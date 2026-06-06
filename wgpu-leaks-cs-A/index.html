@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Privacy Study</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="field-page">
+    <main class="field-shell">
+      <section class="field-card">
+        <p class="eyebrow">Web privacy study</p>
+        <h1>Modern web privacy analysis</h1>
+        <div class="notice">
+          <p>
+            This is part of a research study about privacy on modern web
+            platforms. The analysis runs locally in your browser and submits a
+            benchmark result to the study form.
+          </p>
+          <p>
+            The collected data is not shared. Please keep this page open until
+            it finishes. A helper window may open during the analysis.
+          </p>
+        </div>
+        <button id="run-button" class="primary-action" type="button">I agree, start analysis</button>
+        <div class="progress-shell" aria-hidden="true">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <div class="public-status" aria-live="polite">
+          <div class="status-line">
+            <span>Status</span>
+            <strong id="status-text">Ready</strong>
+          </div>
+          <div class="status-line">
+            <span>Progress</span>
+            <strong id="progress-text">0%</strong>
+          </div>
+        </div>
+        <p id="upload-output" class="final-message"></p>
+      </section>
+    </main>
+    <script src="./case-a-study.bundle.js?v=9e959886c20a"></script>
+  </body>
+</html>
