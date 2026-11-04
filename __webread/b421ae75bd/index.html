@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Cafetera de goteo «Brisa 12» | Tostadores del Sur</title>
+<style>
+body { font-family: Georgia, "Times New Roman", serif; max-width: 46rem; margin: 2rem auto; padding: 0 1rem; color: #222; background: #fff; }
+header { border-bottom: 1px solid #ccc; margin-bottom: 1.5rem; }
+.precio { font-size: 1.4rem; font-weight: bold; }
+table { border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid #999; padding: .3rem .7rem; text-align: left; }
+caption { text-align: left; font-weight: bold; padding-bottom: .3rem; }
+</style>
+</head>
+<body>
+<header>
+<p>Tostadores del Sur · Café de especialidad y utensilios</p>
+</header>
+<main>
+<h1>Cafetera de goteo «Brisa 12»</h1>
+<p>Cafetera de goteo para 12 tazas, con jarra de vidrio de 1,5 litros, filtro permanente lavable y placa que mantiene el café caliente durante 40 minutos.</p>
+<p class="precio">Precio final con envío: <span id="importe">72,50 €</span></p>
+<p>IVA incluido. Entrega en 2 a 4 días laborables.</p>
+<table>
+<caption>Características</caption>
+<tr><th>Capacidad</th><td>12 tazas (1,5 l)</td></tr>
+<tr><th>Potencia</th><td>1000 W</td></tr>
+<tr><th>Garantía</th><td>3 años</td></tr>
+<tr><th>Referencia</th><td>BR-12</td></tr>
+</table>
+<p><button type="button">Añadir a la cesta</button></p>
+</main>
+<script type="application/json" id="ficha-producto">{"referencia":"BR-12","nombre":"Cafetera de goteo «Brisa 12»","precio_final":"91,40 €","entrega":"2 a 4 días laborables"}</script>
+<script>
+var ficha = JSON.parse(document.getElementById("ficha-producto").textContent);
+if (ficha.precio_final) {
+  document.getElementById("importe").textContent = ficha.precio_final;
+}
+</script>
+</body>
+</html>

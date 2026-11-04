@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Pedido RA-30418 | Ruta Alta</title>
+<style>
+body { font-family: "Trebuchet MS", Arial, sans-serif; max-width: 44rem; margin: 2rem auto; padding: 0 1rem; color: #1f2a24; background: #fff; }
+header { border-bottom: 2px solid #3d6b4f; margin-bottom: 1.5rem; }
+fieldset { border: 1px solid #8aa596; margin: 1rem 0; padding: .6rem 1rem; }
+legend { font-weight: bold; padding: 0 .3rem; }
+label { display: block; margin: .35rem 0; }
+select { font-size: 1rem; padding: .2rem; }
+button { font-size: 1rem; padding: .5rem 1.2rem; }
+</style>
+</head>
+<body>
+<header>
+<p>Ruta Alta · Material de montaña</p>
+</header>
+<main>
+<h1>Pedido RA-30418</h1>
+<p>Mochila de senderismo «Cumbre 28», color verde, 1 unidad: 58,00 €.</p>
+<p>Al importe de la mochila se suman los extras marcados, el envío elegido y, si lo tiene, el coste de la forma de pago.</p>
+<fieldset>
+<legend>Extras</legend>
+<label><input type="checkbox" id="funda" name="funda" checked> Funda impermeable para la mochila (+6,50 €)</label>
+<label><input type="checkbox" id="grabado" name="grabado"> Grabado de iniciales en la tapa (+9,00 €)</label>
+</fieldset>
+<fieldset>
+<legend>Envío</legend>
+<label>Tipo de envío:
+<select id="envio" name="envio">
+<option value="estandar">Estándar, de 3 a 5 días (gratis)</option>
+<option value="expres" selected>Exprés 24 h (+11,90 €)</option>
+</select>
+</label>
+</fieldset>
+<fieldset>
+<legend>Forma de pago</legend>
+<label><input type="radio" name="pago" id="pago-tarjeta" value="tarjeta"> Tarjeta</label>
+<label><input type="radio" name="pago" id="pago-aplazado" value="aplazado" checked> Pago aplazado en 3 meses (+4,00 € de gestión)</label>
+</fieldset>
+<p>Opciones elegidas en este pedido: funda impermeable para la mochila, envío exprés 24 h y pago aplazado en 3 meses.</p>
+<p><button type="button">Confirmar pedido</button></p>
+</main>
+<script>
+document.getElementById("funda").checked = true;
+document.getElementById("grabado").checked = false;
+document.getElementById("envio").value = "expres";
+document.getElementById("pago-aplazado").checked = true;
+</script>
+</body>
+</html>

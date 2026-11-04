@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Precios | Tablón</title>
+<style>
+body{font-family:system-ui,"Segoe UI",Arial,sans-serif;margin:0;color:#14213d;background:#f7f8fb}
+header{padding:10px 28px;background:#14213d;color:#fff}
+main{padding:12px 28px 28px;max-width:820px}
+[role="tablist"]{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 18px}
+[role="tab"]{font:inherit;padding:8px 16px;border:1px solid #14213d;border-radius:18px;background:#fff;color:#14213d;cursor:pointer}
+[role="tab"][aria-selected="true"]{background:#14213d;color:#fff}
+.planes{display:flex;gap:16px;flex-wrap:wrap}
+.plan{border:1px solid #c5cbd8;border-radius:8px;background:#fff;padding:14px 18px;width:330px}
+.plan h3{margin:0 0 6px;font-size:1.2rem}
+.cifra{font-size:1.5rem;font-weight:700;margin:10px 0 4px}
+</style>
+</head>
+<body>
+<header>
+<p>Tablón · tableros de tareas para equipos</p>
+</header>
+<main>
+<h1>Precios</h1>
+<p>Elige cómo quieres pagar:</p>
+<div role="tablist" aria-label="Forma de pago">
+<button type="button" role="tab" id="pago-1" aria-selected="true" aria-controls="lista-b">Pago mensual</button>
+<button type="button" role="tab" id="pago-2" aria-selected="false" aria-controls="lista-a" tabindex="-1">Pago anual · un solo cargo por los 12 meses</button>
+</div>
+<section role="tabpanel" id="lista-a" aria-labelledby="pago-2" hidden>
+<div class="planes">
+<div class="plan">
+<h3>Individual</h3>
+<p>1 persona · tableros ilimitados</p>
+<p class="cifra">5,00 € al mes</p>
+</div>
+<div class="plan">
+<h3>Equipo</h3>
+<p>Hasta 8 personas · un solo precio para todo el equipo · tableros ilimitados · permisos por tablero</p>
+<p class="cifra">15,00 € al mes</p>
+</div>
+</div>
+</section>
+<section role="tabpanel" id="lista-b" aria-labelledby="pago-1">
+<div class="planes">
+<div class="plan">
+<h3>Individual</h3>
+<p>1 persona · tableros ilimitados</p>
+<p class="cifra">7,00 € al mes</p>
+</div>
+<div class="plan">
+<h3>Equipo</h3>
+<p>Hasta 8 personas · un solo precio para todo el equipo · tableros ilimitados · permisos por tablero</p>
+<p class="cifra">19,00 € al mes</p>
+</div>
+</div>
+</section>
+<p>Precios con IVA incluido. Puedes cambiar de plan desde la configuración de tu cuenta.</p>
+<p><a href="https://ayuda.tablon-equipos.example/pagos">Preguntas sobre pagos</a></p>
+</main>
+<script>
+var botones = document.querySelectorAll('[role="tab"]');
+botones.forEach(function (boton) {
+  boton.addEventListener('click', function () {
+    botones.forEach(function (otro) {
+      var elegido = otro === boton;
+      otro.setAttribute('aria-selected', elegido ? 'true' : 'false');
+      otro.tabIndex = elegido ? 0 : -1;
+      document.getElementById(otro.getAttribute('aria-controls')).hidden = !elegido;
+    });
+  });
+});
+</script>
+</body>
+</html>

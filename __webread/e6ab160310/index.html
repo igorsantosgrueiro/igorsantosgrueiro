@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Preferencias de correo | Vivero Las Lomas</title>
+<style>
+body { font-family: Verdana, Arial, sans-serif; max-width: 44rem; margin: 2rem auto; padding: 0 1rem; color: #23301f; background: #fff; }
+header { border-bottom: 2px solid #6f8f5e; margin-bottom: 1.5rem; }
+.lista { display: grid; grid-template-columns: 1fr; max-width: 36rem; margin: 1rem 0 1.5rem; }
+.op { background: #eef4ea; border-left: 4px solid #6f8f5e; padding: .7rem .9rem; margin-top: .9rem; }
+.op small { display: block; color: #3b4a36; line-height: 1.4; }
+.lista > .op:first-child { margin-top: 0; }
+.detalle { margin-top: 0; padding-top: 0; }
+.lista > :nth-child(2) { grid-row: 3; }
+.lista > :nth-child(3) { grid-row: 2; }
+button { font-size: 1rem; padding: .5rem 1.2rem; }
+</style>
+</head>
+<body>
+<header>
+<p>Vivero Las Lomas · Plantas y jardín</p>
+</header>
+<main>
+<h1>Tus preferencias de correo</h1>
+<p>Elige qué quieres recibir en tu dirección de correo. Puedes cambiarlo cuando quieras desde esta página.</p>
+<div class="lista">
+<div class="op"><label><input type="checkbox" aria-describedby="detalle-1"> Boletín de novedades, cada quince días</label></div>
+<div class="op"><label><input type="checkbox"> Calendario de siembra, una vez al mes</label></div>
+<div class="op detalle" id="detalle-1"><small>Lo elaboran y lo envían nuestros socios comerciales: si marcas esta casilla, les facilitamos tu dirección de correo.</small></div>
+<div class="op"><label><input type="checkbox"> Encuestas sobre tus compras, como mucho dos al año</label></div>
+</div>
+<p><button type="button">Guardar preferencias</button></p>
+<h2>Sobre tu dirección de correo</h2>
+<p>Usamos tu dirección para enviarte lo que marques en esta página. Los avisos sobre tus pedidos se envían siempre y no dependen de estas casillas.</p>
+</main>
+</body>
+</html>
